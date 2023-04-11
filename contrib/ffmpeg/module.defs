@@ -30,7 +30,9 @@ endif
 FFMPEG.CONFIGURE.extra = \
     --enable-gpl \
     --disable-doc \
-    --disable-programs \
+    --enable-programs \
+    --disable-ffplay \
+    --enable-ffmpeg \
     --disable-avdevice \
     --disable-muxers \
     --disable-network \
@@ -39,6 +41,7 @@ FFMPEG.CONFIGURE.extra = \
     --disable-vdpau \
     --disable-encoders \
     --enable-libmp3lame \
+    --enable-libsrt \
     --enable-encoder=aac \
     --enable-encoder=ac3 \
     --enable-encoder=eac3 \
