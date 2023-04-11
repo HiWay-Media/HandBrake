@@ -1,0 +1,3923 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023 HandBrake Team
+# This file is distributed under the same license as the ghb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Patriccollu di Santa Maria è Sichè <Patrick.Santa-Maria@laposte.net>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: ghb 1.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-27 19:07+0000\n"
+"PO-Revision-Date: 2018-10-10 18:14+0000\n"
+"Last-Translator: Patriccollu di Santa Maria è Sichè <Patrick.Santa-Maria@laposte.net>, 2022\n"
+"Language-Team: Corsican (https://www.transifex.com/HandBrakeProject/teams/92423/co/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: co\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/menu.ui:7
+msgid "_File"
+msgstr "_Schedariu"
+
+#: src/menu.ui:11
+msgid "Open _Source"
+msgstr "Apre a_fonte"
+
+#: src/menu.ui:16
+msgid "Open Single _Title"
+msgstr "Apre u _titulu solu"
+
+#: src/menu.ui:21
+msgid "Set _Destination"
+msgstr "Definisce a _destinazione"
+
+#: src/menu.ui:30
+msgid "_Preferences"
+msgstr "_Preferenze"
+
+#: src/menu.ui:34
+msgid "_Quit"
+msgstr "_Esce"
+
+#: src/menu.ui:40 src/menu.ui:86
+msgid "_Queue"
+msgstr "_Fila d’attesa"
+
+#: src/menu.ui:44
+msgid "_Add"
+msgstr "_Aghjunghje"
+
+#: src/menu.ui:49
+msgid "Add _Multiple"
+msgstr "Aghjunghje _parechje"
+
+#: src/menu.ui:56
+msgid "_Start Encoding"
+msgstr "_Principià a cudificazione"
+
+#: src/menu.ui:61 src/queuehandler.c:2506
+msgid "_Pause Encoding"
+msgstr "_Interrompe a cudificazione"
+
+#: src/menu.ui:68
+msgid "S_ave Queue"
+msgstr "_Arregistrà a fila d’attesa"
+
+#: src/menu.ui:72
+msgid "_Load Queue File"
+msgstr "_Caricà u schedariu di fila d’attesa"
+
+#: src/menu.ui:77
+msgid "_View"
+msgstr "_Fighjà"
+
+#: src/menu.ui:81
+msgid "Presets _List"
+msgstr "_Lista di e prerigature"
+
+#: src/menu.ui:91
+msgid "_Preview"
+msgstr "Fi_ghjulata"
+
+#: src/menu.ui:96
+msgid "_Activity Window"
+msgstr "_Finestra d’attività"
+
+#: src/menu.ui:102 src/ghb3.ui:404
+msgid "_Presets"
+msgstr "_Prerigature"
+
+#: src/menu.ui:106 src/ghb3.ui:178 src/ghb3.ui:412
+msgid "Set De_fault"
+msgstr "_Sceglie predefinitu"
+
+#: src/menu.ui:112 src/ghb3.ui:184 src/ghb3.ui:426 src/ghb3.ui:8762
+#: src/ghb3.ui:9443 src/ghb3.ui:9853
+msgid "_Save"
+msgstr "_Arregistrà"
+
+#: src/menu.ui:116 src/ghb3.ui:188 src/ghb3.ui:308 src/ghb3.ui:435
+msgid "Save _As"
+msgstr "Arregistrà cù u _nome"
+
+#: src/menu.ui:120 src/ghb3.ui:192 src/ghb3.ui:444 src/ghb3.ui:8605
+msgid "_Rename"
+msgstr "_Rinumà"
+
+#: src/menu.ui:124 src/ghb3.ui:196 src/ghb3.ui:453
+msgid "_Delete"
+msgstr "_Squassà"
+
+#: src/menu.ui:130 src/ghb3.ui:202
+msgid "_Import"
+msgstr "_Impurtà"
+
+#: src/menu.ui:134 src/ghb3.ui:206 src/ghb3.ui:467
+msgid "_Export"
+msgstr "_Espurtà"
+
+#: src/menu.ui:140 src/ghb3.ui:212
+msgid "Reset _Built-in Presets"
+msgstr "Rimette d’_origine e prerigature integrate"
+
+#: src/menu.ui:145
+msgid "_Help"
+msgstr "Ai_utu"
+
+#: src/menu.ui:149
+msgid "_About"
+msgstr "_Apprupositu"
+
+#: src/menu.ui:153
+msgid "_Guide"
+msgstr "_Guida"
+
+#: src/menu.ui:163
+msgid "HandBrake For _Dummies"
+msgstr "HandBrake per i _baulli"
+
+#: src/ghb3.ui:113
+msgid ""
+"Render the subtitle over the video.\n"
+"\n"
+"The subtitle will be part of the video and can not be disabled."
+msgstr ""
+"Affissà i sottutituli sopra a video.\n"
+"\n"
+"I sottutituli facenu parte di a video è ùn pudenu micca esse disattivati."
+
+#: src/ghb3.ui:116
+msgid "<b>Burned In</b>"
+msgstr "<b>Intarsiati</b>"
+
+#: src/ghb3.ui:122 src/ghb3.ui:9808
+msgid ""
+"Set the default output subtitle track.\n"
+"\n"
+"Most players will automatically display this\n"
+"subtitle track whenever the video is played.\n"
+"\n"
+"This is useful for creating a \"forced\" track\n"
+"in your output."
+msgstr ""
+"Definisce a traccia di sottutituli predefinita.\n"
+"\n"
+"A maiò parte di i lettori affisseranu sta traccia\n"
+"di sottutituli durante a lettura di a video.\n"
+"\n"
+"Ghjè una manera di creà una traccia « sfurzata »\n"
+"in u vostru schedariu d’esciuta."
+
+#: src/ghb3.ui:129
+msgid "<b>Default</b>"
+msgstr "<b>Predefinitu</b>"
+
+#: src/ghb3.ui:135 src/ghb3.ui:9770
+msgid ""
+"Use only subtitles that have been flagged\n"
+"as forced in the source subtitle track\n"
+"\n"
+"\"Forced\" subtitles are usually used to show\n"
+"subtitles during scenes where someone is speaking\n"
+"a foreign language."
+msgstr ""
+"Impiegà solu i sottutituli marcati cum’è « sfurzati »\n"
+"in a traccia di sottutituli di a fonte.\n"
+"\n"
+"Da bona regula, i sottutituli « sfurzati » sò impiegati\n"
+"per affissà sottutituli durante una scena induve\n"
+"qualchissia parla una lingua straniera."
+
+#: src/ghb3.ui:141
+msgid "<b>Forced Only</b>"
+msgstr "<b>Sfurzati solu</b>"
+
+#: src/ghb3.ui:147
+msgid ""
+"Add (or subtract) an offset (in milliseconds)\n"
+"to the start of the SRT subtitle track.\n"
+"\n"
+"Often, the start of an external SRT file\n"
+"does not coincide with the start of the video.\n"
+"This setting allows you to synchronize the files."
+msgstr ""
+"Aghjunghje (o suttrae) un staccamentu (in milli-\n"
+"seconde) à u principiu di a traccia di sottutituli SRT.\n"
+"\n"
+"Aspessu, u principiu d’un schedariu esternu SRT\n"
+"ùn currisponde micca à u principiu di a video.\n"
+"Què permette di sincrunizà i schedarii."
+
+#: src/ghb3.ui:153
+msgid "<b>SRT Offset</b>"
+msgstr "<b>Staccamentu SRT</b>"
+
+#: src/ghb3.ui:159
+msgid ""
+"The source subtitle track\n"
+"\n"
+"You can choose any of the subtitles\n"
+"recognized in your source file.\n"
+"\n"
+"In addition, there is a special track option\n"
+"\"Foreign Audio Scan\".  This option will add\n"
+"an extra pass to the encode that searches for\n"
+"subtitles that may correspond to a foreign\n"
+"language scene.  This option is best used in\n"
+"conjunction with the \"Forced\" option."
+msgstr ""
+"A traccia di sottutituli di a fonte\n"
+"\n"
+"Pudete sceglie tuttu sottutitulu ricun-\n"
+"nisciutu in u vostru schedariu di fonte.\n"
+"\n"
+"Di più, ci hè l’ozzione speziale di traccia\n"
+"« Analisa audio straniera ».  St’ozzione\n"
+"aghjunghjerà un passeghju cumplementariu di \n"
+"cudificazione per circà sottutituli chì cur-\n"
+"rispondenu à una scena in lingua straniera.  Hè ricumandatu d’impiegà st’ozzione cù\n"
+"l’altra ozzione « Sfurzati »."
+
+#: src/ghb3.ui:170
+msgid "<b>Track</b>"
+msgstr "<b>Traccia</b>"
+
+#: src/ghb3.ui:220
+msgid "Play File"
+msgstr "Leghje u schedariu"
+
+#: src/ghb3.ui:224
+msgid "Open Source Directory"
+msgstr "Apre u cartulare di fonte"
+
+#: src/ghb3.ui:228
+msgid "Open Destination Directory"
+msgstr "Apre u cartulare di destinazione"
+
+#: src/ghb3.ui:234
+msgid "Open Encode Log Directory"
+msgstr "Apre u cartulare di i ghjurnali di cudificazione"
+
+#: src/ghb3.ui:238
+msgid "Open Encode Log"
+msgstr "Apre u ghjurnale di cudificazione"
+
+#: src/ghb3.ui:247
+msgid "Reset Failed Jobs"
+msgstr "Reinizià i travagli fiaschi"
+
+#: src/ghb3.ui:251
+msgid "Reset All Jobs"
+msgstr "Reinizià tutti i travagli"
+
+#: src/ghb3.ui:255
+msgid "Clear Completed Jobs"
+msgstr "Squassà i travagli compii"
+
+#: src/ghb3.ui:259
+msgid "Clear All Jobs"
+msgstr "Squassà tutti i travagli"
+
+#: src/ghb3.ui:265 src/queuehandler.c:1644
+msgid "Import Queue"
+msgstr "Impurtà una fila d’attesa"
+
+#: src/ghb3.ui:269 src/queuehandler.c:1499
+msgid "Export Queue"
+msgstr "Espurtà a fila d’attesa"
+
+#: src/ghb3.ui:276
+msgid "HandBrake Presets"
+msgstr "Prerigature HandBrake"
+
+#: src/ghb3.ui:371 src/ghb3.ui:998
+msgid "Actions"
+msgstr "Azzioni"
+
+#: src/ghb3.ui:521
+msgid "HandBrake Queue"
+msgstr "Fila d’attesa HandBrake"
+
+#: src/ghb3.ui:550
+msgid "_Play File"
+msgstr "_Leghje u schedariu"
+
+#: src/ghb3.ui:559
+msgid "Open _Source Directory"
+msgstr "Apre u cartulare di _fonte"
+
+#: src/ghb3.ui:568
+msgid "Open _Destination Directory"
+msgstr "Apre u cartulare di _destinazione"
+
+#: src/ghb3.ui:582
+msgid "Move to _Top"
+msgstr "Dispiazzà à u _principiu"
+
+#: src/ghb3.ui:591
+msgid "Move to _Bottom"
+msgstr "Dispiazzà à a _fine"
+
+#: src/ghb3.ui:605
+msgid "_Edit"
+msgstr "_Mudificà"
+
+#: src/ghb3.ui:614
+msgid "_Reset"
+msgstr "_Reinizià"
+
+#: src/ghb3.ui:628
+msgid "Re_move"
+msgstr "_Caccià"
+
+#: src/ghb3.ui:658
+msgid "<span size=\"x-large\">Queue</span>"
+msgstr "<span size=\"x-large\">Fila d’attesa</span>"
+
+#: src/ghb3.ui:673
+msgid "0 jobs pending"
+msgstr "0 travagli in attesa"
+
+#: src/ghb3.ui:710 src/ghb3.ui:2331 src/queuehandler.c:2439
+#: src/queuehandler.c:2452 src/queuehandler.c:2465
+msgid "Start Encoding"
+msgstr "Principià a cudificazione"
+
+#: src/ghb3.ui:712 src/ghb3.ui:2333 src/ghb3.ui:7063 src/queuehandler.c:2438
+#: src/queuehandler.c:2451
+msgid "Start"
+msgstr "Principià"
+
+#: src/ghb3.ui:726 src/ghb3.ui:2346 src/queuehandler.c:2481
+#: src/queuehandler.c:2494
+msgid "Pause Encoding"
+msgstr "Interrompe a cudificazione"
+
+#: src/ghb3.ui:728 src/ghb3.ui:2348 src/queuehandler.c:2480
+#: src/queuehandler.c:2493
+msgid "Pause"
+msgstr "Pausa"
+
+#: src/ghb3.ui:787
+msgid "Options"
+msgstr "Ozzioni"
+
+#: src/ghb3.ui:856 src/ghb3.ui:7580
+msgid "When Done:"
+msgstr "Quandu hè compiu :"
+
+#: src/ghb3.ui:935
+msgid "Reset"
+msgstr "Reinizià"
+
+#: src/ghb3.ui:937
+msgid ""
+"Mark selected queue entry as pending.\n"
+"Resets the queue job to pending and ready to run again."
+msgstr ""
+"Marcà l’elementu selezziunatu di a fila cum’è in attesa\n"
+"Rimette in attesa u travagliu di a fila è prontu à esse lanciatu torna."
+
+#: src/ghb3.ui:952
+msgid "Edit"
+msgstr "Mudificà"
+
+#: src/ghb3.ui:1047 src/ghb3.ui:5418
+msgid "Preset:"
+msgstr "Prerigatura :"
+
+#: src/ghb3.ui:1083
+msgid "Source:"
+msgstr "Fonte :"
+
+#: src/ghb3.ui:1124 src/ghb3.ui:7143
+msgid "Title:"
+msgstr "Titulu :"
+
+#: src/ghb3.ui:1164
+msgid "Destination:"
+msgstr "Destinazione :"
+
+#: src/ghb3.ui:1205
+msgid "Dimensions:"
+msgstr "Dimensioni :"
+
+#: src/ghb3.ui:1241
+msgid "Video:"
+msgstr "Video :"
+
+#: src/ghb3.ui:1277
+msgid "Audio:"
+msgstr "Audio :"
+
+#: src/ghb3.ui:1313
+msgid "Subtitles:"
+msgstr "Sottutituli :"
+
+#: src/ghb3.ui:1352 src/ghb3.ui:3199
+msgid "Summary"
+msgstr "Riassuntu"
+
+#: src/ghb3.ui:1390
+msgid "Pass:"
+msgstr "Passu :"
+
+#: src/ghb3.ui:1426
+msgid "Start Time:"
+msgstr "Ora di principiu :"
+
+#: src/ghb3.ui:1462
+msgid "End Time:"
+msgstr "Ora di fine :"
+
+#: src/ghb3.ui:1502
+msgid "Paused Duration:"
+msgstr "Durata di l’interruzzione :"
+
+#: src/ghb3.ui:1542
+msgid "Encode Time:"
+msgstr "Durata di cudificazione :"
+
+#: src/ghb3.ui:1578
+msgid "File Size:"
+msgstr "Dimensione di schedariu :"
+
+#: src/ghb3.ui:1614
+msgid "Status:"
+msgstr "Statu :"
+
+#: src/ghb3.ui:1653
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: src/ghb3.ui:1718
+msgid "Activity Log"
+msgstr "Ghjurnale d’attività"
+
+#: src/ghb3.ui:1741
+msgid "HandBrake Activity Log"
+msgstr "Ghjurnale d’attività HandBrake"
+
+#: src/ghb3.ui:2057
+msgid "About HandBrake"
+msgstr "Apprupositu d’HandBrake"
+
+#: src/ghb3.ui:2063
+msgid ""
+"Copyright © 2008 -  John Stebbins\n"
+"Copyright © 2004 - , HandBrake Devs"
+msgstr ""
+"Copyright © 2008 -  John Stebbins\n"
+"Copyright © 2004 - , Sviluppatori HandBrake"
+
+#: src/ghb3.ui:2065
+msgid ""
+"HandBrake is a GPL-licensed, multiplatform, multithreaded video transcoder."
+msgstr ""
+"HandBrake hè un trascudificatore di video multipiattaforma è « multithread »"
+" sottu a licenza GPL."
+
+#: src/ghb3.ui:2068
+msgid ""
+"HandBrake is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2, as published by the Free Software Foundation.\n"
+"\n"
+"HandBrake is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with Glade; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"HandBrake hè un prugramma liberu ; pudete ridistribuiscelu è/o mudificalu dapervoi secondu i termi di a versione 2 di a Licenza Publica Generale GNU, tale chì publicata da a Free Software Foundation.\n"
+"\n"
+"HandBrake hè distribuitu cù a sperenza d’esse ghjuvevule, ma SENZA NISUNA ASSICURANZA ; senza manc’una assicuranza di CUMMERCIALISAZIONE o di CURRISPUNDENZA À UN IMPIEGU PARTICULARE.  Fighjate a licenza GNU General Public License per sapene di più.\n"
+"\n"
+"Duveriate avè ricevutu una copia di a licenza GNU General Public License cù Glade ; osinnò, ci vole à scrive à : Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+
+#: src/ghb3.ui:2254
+msgid "HandBrake"
+msgstr "HandBrake"
+
+#: src/ghb3.ui:2291 src/callbacks.c:4323
+msgid "Choose Video Source"
+msgstr "Sceglie a video di fonte"
+
+#: src/ghb3.ui:2293 src/ghb3.ui:9285 src/callbacks.c:4322
+msgid "Open Source"
+msgstr "Apre a fonte"
+
+#: src/ghb3.ui:2316
+msgid "Add to Queue"
+msgstr "Aghjunghje à a fila d’attesa"
+
+#: src/ghb3.ui:2318
+msgid "Add To Queue"
+msgstr "Aghjunghje à a fila d’attesa"
+
+#: src/ghb3.ui:2373
+msgid "Show Presets Window"
+msgstr "Affissà a finestra di e prerigature"
+
+#: src/ghb3.ui:2375
+msgid "Presets"
+msgstr "Prerigature"
+
+#: src/ghb3.ui:2388
+msgid "Show Preview Window"
+msgstr "Affissà a finestra di fighjulata"
+
+#: src/ghb3.ui:2390
+msgid "Preview"
+msgstr "Fighjulata"
+
+#: src/ghb3.ui:2403
+msgid "Show Queue"
+msgstr "Affissà a fila d’attesa"
+
+#: src/ghb3.ui:2405 src/callbacks.c:4753
+msgid "Queue"
+msgstr "Fila d’attesa"
+
+#: src/ghb3.ui:2418
+msgid "Show Activity Window"
+msgstr "Affissà a finestra d’attività"
+
+#: src/ghb3.ui:2420
+msgid "Activity"
+msgstr "Attività"
+
+#: src/ghb3.ui:2450
+msgid "<b>Source:</b>"
+msgstr "<b>Fonte :</b>"
+
+#: src/ghb3.ui:2476 src/hb-backend.c:60 src/hb-backend.c:72
+#: src/hb-backend.c:85 src/hb-backend.c:124 src/hb-backend.c:237
+#: src/hb-backend.c:270 src/hb-backend.c:281 src/hb-backend.c:308
+#: src/hb-backend.c:393 src/hb-backend.c:2593 src/hb-backend.c:2819
+#: src/subtitlehandler.c:1367
+msgid "None"
+msgstr "Nisunu"
+
+#: src/ghb3.ui:2521 src/callbacks.c:4295
+msgid "Scanning..."
+msgstr "Verificazione…"
+
+#: src/ghb3.ui:2555
+msgid "<b>Title:</b>"
+msgstr "<b>Titulu :</b>"
+
+#: src/ghb3.ui:2583
+msgid ""
+"Set the title to encode.\n"
+"By default the longest title is chosen.\n"
+"This is often the feature title of a DVD."
+msgstr ""
+"Definisce u titulu à cudificà.\n"
+"Osinnò, u titulu u più longu hè sceltu.\n"
+"Ghjè aspessu u titulu d’un DVD."
+
+#: src/ghb3.ui:2610
+msgid "<b>Angle:</b>"
+msgstr "<b>Angulu :</b>"
+
+#: src/ghb3.ui:2622
+msgid "For multi-angle DVD's, select the desired angle to encode."
+msgstr "Per i DVD cù anguli multiple, selezziunate l’anguli à cudificà."
+
+#: src/ghb3.ui:2638
+msgid "<b>Range:</b>"
+msgstr "<b>Stesa :</b>"
+
+#: src/ghb3.ui:2649
+msgid "Range of title to encode. Can be chapters, seconds, or frames."
+msgstr ""
+"Stesa di u titulu à cudificà. Si pò agisce di capituli, di seconde, o di "
+"fiure."
+
+#: src/ghb3.ui:2662
+msgid "Set the first chapter to encode."
+msgstr "Definisce u primu capitulu à cudificà."
+
+#: src/ghb3.ui:2678
+msgid "-"
+msgstr "-"
+
+#: src/ghb3.ui:2690
+msgid "Set the last chapter to encode."
+msgstr "Definisce l’ultimu capitulu à cudificà."
+
+#: src/ghb3.ui:2716
+msgid "<b>Preset:</b>"
+msgstr "<b>Prerigatura :</b>"
+
+#: src/ghb3.ui:2752
+msgid "Choose Preset"
+msgstr "Sceglie a prerigatura"
+
+#: src/ghb3.ui:2783
+msgid "<u><i>Modified</i></u>"
+msgstr "<u><i>Mudificata</i></u>"
+
+#: src/ghb3.ui:2792 src/ghb3.ui:5760 src/ghb3.ui:6544
+msgid "Reload"
+msgstr "Ricaricà"
+
+#: src/ghb3.ui:2795
+msgid ""
+"Reload the settings for the currently selected preset.\n"
+"Modifications will be discarded."
+msgstr ""
+"Ricaricà e preferenze per a prerigatura attualmente selezziunata.\n"
+"I cambiamenti seranu persi."
+
+#: src/ghb3.ui:2807
+msgid "Save New Preset"
+msgstr "Arregistrà a nova prerigatura"
+
+#: src/ghb3.ui:2810
+msgid "Save the current settings to a new Preset."
+msgstr "Arregistrà e preferenze attuale in una nova prerigatura."
+
+#: src/ghb3.ui:2890
+msgid "Format:"
+msgstr "Furmatu :"
+
+#: src/ghb3.ui:2908
+msgid "Format to mux encoded tracks to."
+msgstr "Furmatu ver di e traccie cudificate in mux."
+
+#: src/ghb3.ui:2920 src/queuehandler.c:293
+msgid "Web Optimized"
+msgstr "Megliuratu per u Web"
+
+#: src/ghb3.ui:2925
+msgid ""
+"Optimize the layout of the MP4 file for progressive download.\n"
+"This allows a player to initiate playback before downloading the entire file."
+msgstr ""
+"Megliureghja a dispusizione di u schedariu MP4 per un scaricamentu prugressivu.\n"
+"Què permette à u lettore di principià a lettura nanzu a fine di u scaricamentu."
+
+#: src/ghb3.ui:2941
+msgid "Align A/V Start"
+msgstr "Alineà u principiu di l’audio/video"
+
+#: src/ghb3.ui:2946
+msgid ""
+"Aligns the initial timestamps of all audio and video streams by\n"
+"inserting blank frames or dropping frames. May improve audio/video\n"
+"sync for broken players that do not honor MP4 edit lists."
+msgstr ""
+"Alineeghja e stampiglie iniziale di tutti i flussi audio è video\n"
+"framittendu fiure viote o squassendu fiure. Què pò megliurà a\n"
+"sincrunizazione audio/video per i lettori disfunziunendu chì ùn\n"
+"rispettanu micca e liste di mudificazioni MP4."
+
+#: src/ghb3.ui:2963
+msgid "iPod 5G Support"
+msgstr "Ghjestione di l’iPod 5G"
+
+#: src/ghb3.ui:2968
+msgid "Add iPod Atom needed by some older iPods."
+msgstr "Aghjunghje l’iPod Atom richiestu per certi iPod anziani."
+
+#: src/ghb3.ui:2983
+msgid "Passthru Common Metadata"
+msgstr "Cunservazione di i metadati cumuni"
+
+#: src/ghb3.ui:2988
+msgid "Copy metadata from source to output."
+msgstr "Cupià i metadati da a fonte ver di a destinazione."
+
+#: src/ghb3.ui:3010
+msgid "Duration:"
+msgstr "Durata :"
+
+#: src/ghb3.ui:3028
+msgid "hh:mm:ss"
+msgstr "oo:mm:ss"
+
+#: src/ghb3.ui:3043
+msgid "Tracks:"
+msgstr "Traccie :"
+
+#: src/ghb3.ui:3083
+msgid "Filters:"
+msgstr "Filtri :"
+
+#: src/ghb3.ui:3123
+msgid "Size:"
+msgstr "Dimensione :"
+
+#: src/ghb3.ui:3148 src/ghb3.ui:3247 src/ghb3.ui:3285 src/ghb3.ui:3323
+#: src/ghb3.ui:4159 src/ghb3.ui:4297
+msgid "--"
+msgstr "--"
+
+#: src/ghb3.ui:3235 src/ghb3.ui:4147
+msgid "Storage Size:"
+msgstr "Dimensione d’allucamentu :"
+
+#: src/ghb3.ui:3273 src/ghb3.ui:4191
+msgid "Display Size:"
+msgstr "Dimensione d’affissera :"
+
+#: src/ghb3.ui:3311 src/ghb3.ui:4285
+msgid "Aspect Ratio:"
+msgstr "Prupurzioni :"
+
+#: src/ghb3.ui:3348
+msgid "<b>Source Dimensions</b>"
+msgstr "<b>Dimensioni di a fonte</b>"
+
+#: src/ghb3.ui:3395
+msgid "Flipping:"
+msgstr "Rivultamentu :"
+
+#: src/ghb3.ui:3406
+msgid "Horizontal ⇌"
+msgstr "Orizuntale  "
+
+#: src/ghb3.ui:3411
+msgid "Flip video horizontally."
+msgstr "Rivultà orizuntalmente a video."
+
+#: src/ghb3.ui:3428
+msgid "Rotation:"
+msgstr "Rutazione :"
+
+#: src/ghb3.ui:3444
+msgid "Rotate the video clockwise in 90 degree increments."
+msgstr "Rutazione di u filmu di 90 gradi in u sensu orariu."
+
+#: src/ghb3.ui:3459
+msgid "Cropping:"
+msgstr "Inquadratura :"
+
+#: src/ghb3.ui:3475
+msgid "How to apply crop settings."
+msgstr "Cumu appiecà e preferenze d’inquadratura."
+
+#: src/ghb3.ui:3491
+msgid "Left Crop"
+msgstr "Runzicatura à manca"
+
+#: src/ghb3.ui:3508
+msgid "Top Crop"
+msgstr "Runzicatura insù"
+
+#: src/ghb3.ui:3525
+msgid "Bottom Crop"
+msgstr "Runzicatura inghjò"
+
+#: src/ghb3.ui:3542
+msgid "Right Crop"
+msgstr "Runzicatura à dritta"
+
+#: src/ghb3.ui:3578
+msgid "<b>Orientation &amp; Cropping</b>"
+msgstr "<b>Orientazione è inquadratura</b>"
+
+#: src/ghb3.ui:3617
+msgid "Resolution Limit:"
+msgstr "Cunfina di risuluzione :"
+
+#: src/ghb3.ui:3632
+msgid "Resolution limits for common video formats."
+msgstr "Cunfine di risuluzione per i furmati cumuni di video."
+
+#: src/ghb3.ui:3648
+msgid "Maximum Size:"
+msgstr "Dimensione massima :"
+
+#: src/ghb3.ui:3663
+msgid "This is the maximum width that the video will be stored at."
+msgstr "Ghjè a larghezza massima cù quella a video serà arregistrata."
+
+#: src/ghb3.ui:3680 src/ghb3.ui:3849 src/ghb3.ui:4223
+msgid "x"
+msgstr "x"
+
+#: src/ghb3.ui:3695
+msgid "This is the maximum height that the video will be stored at."
+msgstr "Ghjè l’altezza massima cù quella a video serà arregistrata."
+
+#: src/ghb3.ui:3711
+msgid "Anamorphic:"
+msgstr "Anamorficu :"
+
+#: src/ghb3.ui:3726
+msgid ""
+"<b>Anamorphic Modes:</b><small><tt>\n"
+"    Automatic - Use a pixel aspect ratio that maximizes\n"
+"        storage resolution while preserving the original\n"
+"        display aspect ratio.\n"
+"    None      - Force pixel aspect ratio to 1:1.\n"
+"    Custom    - Enter a custom pixel aspect ratio.</tt></small>"
+msgstr ""
+"<b>Modi anamorfichi :</b><small><tt>\n"
+"    Autumaticu - Impiegà un raportu larghezza/altezza di\n"
+"        pixel chì megliureghja a risuluzione d’allucamentu è\n"
+"        cunserveghja u raportu d’affissera d’origine.\n"
+"    Nisunu      - Sfurzà un raportu larghezza/altezza di pixel di 1:1.\n"
+"    Persunalizatu    - Stampittà un raportu larghezza/altezza di pixel.</tt></small>"
+
+#: src/ghb3.ui:3747
+msgid "Pixel Aspect:"
+msgstr "Aspettu di fiura (pixel) :"
+
+#: src/ghb3.ui:3762
+msgid ""
+"Pixel aspect defines the shape of the pixels.\n"
+"\n"
+"A 1:1 ratio defines a square pixel.  Other values define rectangular shapes.\n"
+"Players will scale the image in order to achieve the specified aspect."
+msgstr ""
+"U furmatu pixel definisce a forma, a larghezza è l’altezza di i punti elementarii d’una fiura (pixel).\n"
+"\n"
+"Un raportu 1:1 definisce un pixel quadratu.  D’altri valori definiscenu forme rettangulare.\n"
+"I lettori cambieranu e dimensioni di a fiura per currisponde à l’aspettu specificatu."
+
+#: src/ghb3.ui:3782
+msgid ":"
+msgstr ":"
+
+#: src/ghb3.ui:3797
+msgid ""
+"Pixel aspect defines the shape of the pixels.\n"
+"A 1:1 ratio defines a square pixel.  Other values define rectangular shapes.\n"
+"Players will scale the image in order to achieve the specified aspect."
+msgstr ""
+"U furmatu pixel definisce a forma, a larghezza è l’altezza di i punti elementarii d’una fiura (pixel).\n"
+"Un raportu 1:1 definisce un pixel quadratu.  D’altri valori definiscenu forme rettangulare.\n"
+"I lettori cambieranu e dimensioni di a fiura per currisponde à l’aspettu specificatu."
+
+#: src/ghb3.ui:3816
+msgid "Scaled Size:"
+msgstr "Dimensione à a scala :"
+
+#: src/ghb3.ui:3831
+msgid ""
+"This is the width that the video will be stored at.\n"
+"The actual display dimensions will differ if the pixel aspect ratio is not 1:1."
+msgstr ""
+"Ghjè a larghezza cù quella a video serà arregistrata.\n"
+"E vere dimensioni d’affisera seranu sfarente s’è u raportu larghezza/altezza ùn hè micca 1:1."
+
+#: src/ghb3.ui:3864
+msgid ""
+"This is the height that the video will be stored at.\n"
+"The actual display dimensions will differ if the pixel aspect ratio is not 1:1."
+msgstr ""
+"Ghjè l’altezza impiegata per l’allucamentu di a video.\n"
+"E vere dimensioni d’affisera seranu sfarente s’è u raportu larghezza/altezza ùn hè micca 1:1."
+
+#: src/ghb3.ui:3878
+msgid "Optimal Size"
+msgstr "Dimensione ottimale"
+
+#: src/ghb3.ui:3883
+msgid "Use highest resolution permitted by above settings."
+msgstr "Impiegà a risuluzione a più alta permessa da e preferenze insù."
+
+#: src/ghb3.ui:3898
+msgid "Allow Upscaling"
+msgstr "Permette a culata in gamma"
+
+#: src/ghb3.ui:3903
+msgid ""
+"If not enabled, scaled dimensions will be limited to source dimensions."
+msgstr ""
+"S’è l’ozzione hè disattivata, e dimensioni à a scala seranu cunfinate à "
+"quelle di a fonte."
+
+#: src/ghb3.ui:3928
+msgid "<b>Resolution &amp; Scaling</b>"
+msgstr "<b>Risuluzione è messa à a scala</b>"
+
+#: src/ghb3.ui:3968
+msgid "Fill:"
+msgstr "Riempiimentu :"
+
+#: src/ghb3.ui:3985
+msgid "Add a border around the video."
+msgstr "Aghjunghje un bordu à u giru di a video."
+
+#: src/ghb3.ui:4002
+msgid "Left Pad"
+msgstr "Riempiimentu à manca"
+
+#: src/ghb3.ui:4019
+msgid "Top Pad"
+msgstr "Riempiimentu à u principiu"
+
+#: src/ghb3.ui:4036
+msgid "Bottom Pad"
+msgstr "Riempiimentu à a fine"
+
+#: src/ghb3.ui:4053
+msgid "Right Pad"
+msgstr "Riempiimentu à diritta"
+
+#: src/ghb3.ui:4069
+msgid "Color:"
+msgstr "Culore :"
+
+#: src/ghb3.ui:4086
+msgid "Color of border added around video."
+msgstr "Culore di u bordu aghjuntu à u giru di a video."
+
+#: src/ghb3.ui:4108
+msgid "<b>Borders</b>"
+msgstr "<b>Bordi</b>"
+
+#: src/ghb3.ui:4206 src/ghb3.ui:4238 src/ghb3.ui:4256
+msgid "Changing the display size will stretch the video."
+msgstr "U cambiamentu di dimensione di l’affissera stinzerà a video."
+
+#: src/ghb3.ui:4251 src/hb-backend.c:123 src/hb-backend.c:239
+#: src/hb-backend.c:311
+msgid "Automatic"
+msgstr "Autumaticu"
+
+#: src/ghb3.ui:4322
+msgid "<b>Final Dimensions</b>"
+msgstr "<b>Dimensioni finale</b>"
+
+#: src/ghb3.ui:4335
+msgid "Dimensions"
+msgstr "Dimensioni"
+
+#: src/ghb3.ui:4363
+msgid "Detelecine:"
+msgstr "Detelesinema :"
+
+#: src/ghb3.ui:4379
+msgid ""
+"This filter removes 'combing' artifacts that are the result of telecining.\n"
+"\n"
+"Telecining is a process that adjusts film framerates that are 24fps to NTSC video frame rates which are 30fps."
+msgstr ""
+"Stu filtru caccia l’effetti parassiti di « pettinera » chì sò u risultatu di u telesinema.\n"
+"\n"
+"U telesinema hè u prucessu chì adatteghja a cadenza di fiura di filmi di 24 fps ver di quella di e video NTSC à 30 fps."
+
+#: src/ghb3.ui:4394 src/ghb3.ui:5047
+msgid ""
+"Custom detelecine filter string format\n"
+"\n"
+"JunkLeft:JunkRight:JunkTop:JunkBottom:StrictBreaks:MetricPlane:Parity"
+msgstr ""
+"Furmatu persunalizatu di catena di filtru di detelesinema\n"
+"\n"
+"JunkLeft:JunkRight:JunkTop:JunkBottom:StrictBreaks:MetricPlane:Parity"
+
+#: src/ghb3.ui:4422
+msgid "Interlace Detection:"
+msgstr "Avventata di l’intricciamentu :"
+
+#: src/ghb3.ui:4438
+msgid ""
+"This filter detects interlaced frames.\n"
+"\n"
+"If a deinterlace filter is enabled, only frames that this filter finds\n"
+"to be interlaced will be deinterlaced."
+msgstr ""
+"Stu filtru avventeghja e fiure intricciate.\n"
+"\n"
+"S’è un filtru di disintricciamentu hè attivatu, solu e fiure scuperte da stu filtru cum’è essendu intricciate seranu disintricciate."
+
+#: src/ghb3.ui:4454
+msgid ""
+"Custom interlace detection filter string format\n"
+"\n"
+"Mode:Spatial Metric:Motion Thresh:Spatial Thresh:Mask Filter Mode:\n"
+"Block Thresh: Block Width: Block Height"
+msgstr ""
+"Furmatu persunalizatu di catena di filtru d’avventata di l’intricciamentu\n"
+"\n"
+"Mode:Spatial Metric:Motion Thresh:Spatial Thresh:Mask Filter Mode:\n"
+"Block Thresh: Block Width: Block Height"
+
+#: src/ghb3.ui:4483
+msgid "Deinterlace:"
+msgstr "Disintricciamentu :"
+
+#: src/ghb3.ui:4499
+msgid ""
+"Choose decomb or deinterlace filter.\n"
+"\n"
+"The decomb filter supports a variety of interpolation algorithms.\n"
+"The deinterlace filter is a classic YADIF deinterlacer.\n"
+msgstr ""
+"Sciglite u filtru di dipettinera o disintricciamentu.\n"
+"\n"
+"U filtru di dipettinera accetta cudificazioni numerose d’interpolazione.\n"
+"U filtru di disintricciament hè un disintricciatore YADIF classicu.\n"
+
+#: src/ghb3.ui:4518
+msgid "Deinterlace Preset:"
+msgstr "Prerigatura di disintricciamentu :"
+
+#: src/ghb3.ui:4534
+msgid ""
+"Choose decomb or deinterlace filter options.\n"
+"\n"
+"The decomb filter supports a variety of interpolation algorithms.\n"
+"The deinterlace filter is a classic YADIF deinterlacer.\n"
+msgstr ""
+"Sciglite l’ozzioni di filtru dipettinera o disintricciamentu.\n"
+"\n"
+"U filtru di dipettinera accetta cudificazioni numerose d’interpolazione.\n"
+"U filtru di disintricciament hè un disintricciatore YADIF classicu.\n"
+
+#: src/ghb3.ui:4577
+msgid "Deblock Filter:"
+msgstr "Filtru di sblucchime :"
+
+#: src/ghb3.ui:4593 src/ghb3.ui:4625
+msgid ""
+"The deblocking filter removes a common type of compression artifact.\n"
+"If your source exhibits 'blockiness', this filter may help clean it up."
+msgstr ""
+"U filtru di sblucchime caccia un tipu classicu d’effetti parassiti di cumpressione.\n"
+"S’è a vostra fonte fà vede certi effetti parassiti di bloccu, stu filtru pò aiutà à nettalli."
+
+#: src/ghb3.ui:4609
+msgid "Deblock Tune:"
+msgstr "Rigatura di sblucchime :"
+
+#: src/ghb3.ui:4639 src/ghb3.ui:4854
+msgid ""
+"Custom deblock filter string format\n"
+"\n"
+"strength=weak|strong:thresh=0-100:blocksize=4-512"
+msgstr ""
+"Furmatu persunalizatu di catena di filtru di sblucchime\n"
+"\n"
+"strength=weak|strong:thresh=0-100:blocksize=4-512"
+
+#: src/ghb3.ui:4667
+msgid "Denoise Filter:"
+msgstr "Filtru di riduzzione di trostu :"
+
+#: src/ghb3.ui:4683 src/ghb3.ui:4716 src/ghb3.ui:4749
+msgid ""
+"Denoise filtering reduces or removes the appearance of noise and grain.\n"
+"Film grain and other types of high frequency noise are difficult to compress.\n"
+"Using this filter on such sources can result in smaller file sizes."
+msgstr ""
+"U filtru di riduzzione di trostu riduce o caccia l’aspettu di rumore è di granellu d’un filmu.\n"
+"U granellu d’un filmu è l’altri tipi di trostu d’alta frequenza sò difficiule à cumprime.\n"
+"L’impiegu di stu filtru nant’à quelle fonti permette di riduce a dimensione di i schedarii."
+
+#: src/ghb3.ui:4700
+msgid "Denoise Preset:"
+msgstr "Prerigatura di riduzzione di trostu :"
+
+#: src/ghb3.ui:4733
+msgid "Denoise Tune:"
+msgstr "Rigatura di riduzzione di trostu :"
+
+#: src/ghb3.ui:4764 src/ghb3.ui:4976
+msgid ""
+"Custom denoise filter string format\n"
+"\n"
+"SpatialLuma:SpatialChroma:TemporalLuma:TemporalChroma"
+msgstr ""
+"Furmatu persunalizatu di catena di filtru di riduzzione di trostu\n"
+"\n"
+"SpatialLuma:SpatialChroma:TemporalLuma:TemporalChroma"
+
+#: src/ghb3.ui:4792
+msgid "Chroma Smooth Filter:"
+msgstr "Filtru d’allisciata cromatica :"
+
+#: src/ghb3.ui:4808 src/ghb3.ui:4840
+msgid ""
+"The chroma smooth filter removes common color artifacts.\n"
+"Lower resolution analog source content may benefit from this filter."
+msgstr ""
+"U filtru d’allisciata cromatica caccia l’effetti parassiti cumuni di culore.\n"
+"E fonti analogichi di risuluzione debule ponu prufittà di stu filtru."
+
+#: src/ghb3.ui:4824
+msgid "Chroma Smooth Tune:"
+msgstr "Rigatura d’allisciata cromatica :"
+
+#: src/ghb3.ui:4882
+msgid "Sharpen Filter:"
+msgstr "Filtru d’arrutata :"
+
+#: src/ghb3.ui:4898 src/ghb3.ui:4930 src/ghb3.ui:4962
+msgid ""
+"Sharpen filtering enhances edges and other\n"
+"high frequency components in the video."
+msgstr ""
+"U filtru d’arrutata amendeghja i bordi è\n"
+"l’altri cumpunenti d’alta frequenza in u filmu."
+
+#: src/ghb3.ui:4914
+msgid "Sharpen Preset:"
+msgstr "Prerigatura d’arrutata :"
+
+#: src/ghb3.ui:4946
+msgid "Sharpen Tune:"
+msgstr "Rigatura d’arrutata :"
+
+#: src/ghb3.ui:4993 src/hb-backend.c:4912
+msgid "Grayscale"
+msgstr "Scala di grisgiu"
+
+#: src/ghb3.ui:4998
+msgid "If enabled, filter colour components out of video."
+msgstr "Attivà st’ozzione per filtrà i cumpunenti di culore di u filmu."
+
+#: src/ghb3.ui:5018
+msgid "Colorspace:"
+msgstr "Spaziu culorimetricu :"
+
+#: src/ghb3.ui:5034
+msgid "Translate the colorspace of the source."
+msgstr "Cunvertisce u spaziu culorimetricu di a fonte."
+
+#: src/ghb3.ui:5066
+msgid "Filters"
+msgstr "Filtri"
+
+#: src/ghb3.ui:5097
+msgid "Video Encoder:"
+msgstr "Cudificatore video :"
+
+#: src/ghb3.ui:5111
+msgid "Available video encoders."
+msgstr "Cudificatori video dispunibule."
+
+#: src/ghb3.ui:5127
+msgid "Framerate:"
+msgstr "Frequenza di fiure :"
+
+#: src/ghb3.ui:5142
+msgid ""
+"Output framerate.\n"
+"\n"
+"'Same as source' is recommended. If your source video has\n"
+"a variable framerate, 'Same as source' will preserve it."
+msgstr ""
+"Frequenza di fiure d’esciuta.\n"
+"\n"
+"« Listessa chì a fonte » hè ricumandatu. S’è a vostra video di fonte hà una frequenza di fiure variabile, st’ozzione a preserverà."
+
+#: src/ghb3.ui:5157
+msgid "Constant Framerate"
+msgstr "Frequenza di fiure custente"
+
+#: src/ghb3.ui:5162
+msgid "Enables constant framerate output."
+msgstr "Attiveghja una frequenza di fiure custente in esciuta."
+
+#: src/ghb3.ui:5176
+msgid "Peak Framerate (VFR)"
+msgstr "Frequenza di fiure di cresta (VFR)"
+
+#: src/ghb3.ui:5181
+msgid ""
+"Enables variable framerate output with a peak\n"
+"rate determined by the framerate setting.\n"
+"\n"
+"VFR is not compatible with some players."
+msgstr ""
+"Attiveghja una frequenza di fiure d’esciuta variabile cù una frequenza di cresta determinata da a preferenza di a frequenza di fiure.\n"
+"\n"
+"VFR ùn hè micca cumpatibile cù certi lettori."
+
+#: src/ghb3.ui:5199
+msgid "Variable Framerate"
+msgstr "Frequenza di fiure variabile (VFR)"
+
+#: src/ghb3.ui:5204
+msgid ""
+"Enables variable framerate output.\n"
+"\n"
+"VFR is not compatible with some players."
+msgstr ""
+"Attiveghja una frequenza di fiure variabile in esciuta.\n"
+"\n"
+"VFR ùn hè micca cumpatibile cù certi lettori."
+
+#: src/ghb3.ui:5240 src/ghb3.ui:5272
+msgid ""
+"Set the desired quality factor.\n"
+"The encoder targets a certain quality.\n"
+"The scale used by each video encoder is different.\n"
+"\n"
+"x264's scale is logarithmic and lower values correspond to higher quality.\n"
+"So small decreases in value will result in progressively larger increases\n"
+"in the resulting file size.  A value of 0 means lossless and will result\n"
+"in a file size that is larger than the original source, unless the source\n"
+"was also lossless.\n"
+"\n"
+"FFMpeg's and Theora's scale is more linear.\n"
+"These encoders do not have a lossless mode."
+msgstr ""
+"Definisce u fattore di qualità pregatu.\n"
+"U cudificatore sibuleghja una certa qualità.\n"
+"A scala impiegata da ogni cudificatore hè sfarenta.\n"
+"\n"
+"A scala di x264 hè logaritmica, è valori più chjuchi currispondenu à una\n"
+"qualità più maiò.\n"
+"Dunque, chjuchi aumenti di valore aumentanu prugressi-\n"
+"vamente a dimensione di u schedariu d’esciuta.  Un valore à 0 vole dì\n"
+"senza perdita è per què, u schedariu d’esciuta serà più maiò chè quellu\n"
+"di a fonte, for di s’è a fonte era dinù senza perdita.\n"
+"\n"
+"A scala di FFMpeg è Theora hè più lineare.\n"
+"Sti cudificatori ùn anu micca di modu senza perdita."
+
+#: src/ghb3.ui:5267
+msgid "Constant Quality:"
+msgstr "Qualità custente :"
+
+#: src/ghb3.ui:5298
+msgid "Bitrate (kbps):    "
+msgstr "Flussu binariu (kbps) :    "
+
+#: src/ghb3.ui:5303 src/ghb3.ui:5325
+msgid ""
+"Set the average bitrate.\n"
+"\n"
+"The instantaneous bitrate can be much higher or lower at any point in time.\n"
+"But the average over a long duration will be the value set here.  If you need\n"
+"to limit instantaneous bitrate, look into x264's vbv-bufsize and vbv-maxrate settings."
+msgstr ""
+"Definisce u flussu medianu.\n"
+"\n"
+"U flussu istantaneu pò esse assai più altu o assai più bassu à ogni stonda.\n"
+"Ma a mediana, nant’à una longa durata, serà u valore definitu quì.  S’ella hè bisognu\n"
+"di limità u flussu istantaneu, fighjate e preferenze vbv-bufsize è vbv-maxrate di u x264."
+
+#: src/ghb3.ui:5342
+msgid "2-Pass Encoding"
+msgstr "Cudificazione à 2 passi"
+
+#: src/ghb3.ui:5347
+msgid ""
+"Perform 2 Pass Encoding.\n"
+"\n"
+"The 'Bitrate' option is prerequisite. During the 1st pass, statistics about\n"
+"the video are collected.  Then in the second pass, those statistics are used\n"
+"to make bitrate allocation decisions."
+msgstr ""
+"Face una cudificazione à 2 passi.\n"
+"\n"
+"L’ozzione « Flussu » hè prerichiesta. Durante u primu passu, e statistiche\n"
+"sò cullettate.  Dopu, à u secondu passu, ste statistiche sò impiegate per fà\n"
+"a scelta di l’allucamentu di u flussu."
+
+#: src/ghb3.ui:5365
+msgid "Turbo First Pass"
+msgstr "Primu passu Turbo"
+
+#: src/ghb3.ui:5370
+msgid ""
+"During the 1st pass of a 2 pass encode, use settings that speed things "
+"along."
+msgstr ""
+"Durante u primu passu d’una cudificazione à 2 passi, impiegate preferenze "
+"chì acceleranu u trattamentu."
+
+#: src/ghb3.ui:5432
+msgid ""
+"Adjusts encoder settings to trade off compression efficiency against encoding speed.\n"
+"\n"
+"This establishes your default encoder settings.\n"
+"Tunes, profiles, levels and extra options string will be applied to this.\n"
+"You should generally set this option to the slowest you can bear since slower\n"
+"settings will result in better quality or smaller files."
+msgstr ""
+"Adatteghja e preferenze di u cudificatore per bilancià trà a faccindaghjine di a cumpressione è a vitezza di cudificazione.\n"
+"\n"
+"Què definisce e vostre preferenze predefinite di cudificatore.\n"
+"Rigature, prufili, livelli è catene addiziunale d’ozzioni seranu appiecati à st’operazione.\n"
+"Di regula, duveriate definisce st’ozzione à u valore u più lentu chì\n"
+"vo siate capace d’accettà, perchè preferenze più lente vi danu una\n"
+"più bella qualità o schedarii più chjuchi."
+
+#: src/ghb3.ui:5458
+msgid "Tune:"
+msgstr "Rigatura :"
+
+#: src/ghb3.ui:5475
+msgid ""
+"Tune settings to optimize for common scenarios.\n"
+"\n"
+"This can improve efficiency for particular source characteristics or set\n"
+"characteristics of the output file.  Changes will be applied after the\n"
+"preset but before all other parameters."
+msgstr ""
+"Preferenze di rigatura per megliurà i scenarii classichi.\n"
+"\n"
+"Què pò megliurà a faccindaghjine di certe caratteristiche di a fonte\n"
+"o di e caratteristiche definite di u schedariu d’esciuta.  I cambiamenti\n"
+"seranu appiecati dopu a prerigatura ma nanzu tutti l’altre preferenze."
+
+#: src/ghb3.ui:5491
+msgid "Fast Decode"
+msgstr "Discudificazione rapida"
+
+#: src/ghb3.ui:5496
+msgid ""
+"Reduce decoder CPU usage.\n"
+"\n"
+"Set this if your device is struggling to play the output (dropped frames)."
+msgstr ""
+"Riduce l’impiegu CPU di u discudificatore.\n"
+"\n"
+"Attivate st’ozzione s’è u vostru apparechju ùn leghje micca bè u schedariu d’esciuta (perdita di fiure)."
+
+#: src/ghb3.ui:5514
+msgid "Zero Latency"
+msgstr "Cumportu d’attesa à zeru"
+
+#: src/ghb3.ui:5518
+msgid ""
+"Minimize latency between input to encoder and output of decoder.\n"
+"\n"
+"This is useful for broadcast of live streams.\n"
+"\n"
+"Since HandBrake is not suitable for live stream broadcast purposes,\n"
+"this setting is of little value here."
+msgstr ""
+"Impuculisce u cumportu d’attesa trà a fonte di u cudificatore è l’esciuta di u discudificatore.\n"
+"\n"
+"Ghjè ghjuvevule per a diffusione è a lettura di cuntinuu di i flussi.\n"
+"\n"
+"Cum’è HandBrake ùn hè micca adattatu à a diffusione da flussi\n"
+"in direttu, st’ozzione hè di pocu valore quì."
+
+#: src/ghb3.ui:5542
+msgid "Profile:"
+msgstr "Prufilu :"
+
+#: src/ghb3.ui:5559
+msgid ""
+"Sets and ensures compliance with the specified profile.\n"
+"\n"
+"Overrides all other settings."
+msgstr ""
+"Definisce è assicureghja a cunfurmità cù u prufilu specificatu.\n"
+"\n"
+"Supraneghja tutte l’altre preferenze."
+
+#: src/ghb3.ui:5577
+msgid "Level:"
+msgstr "Livellu :"
+
+#: src/ghb3.ui:5594
+msgid ""
+"Sets and ensures compliance with the specified level.\n"
+"\n"
+"Overrides all other settings."
+msgstr ""
+"Definisce è assicureghja a cunfurmità cù u livellu specificatu.\n"
+"\n"
+"Supraneghja tutte l’altre preferenze."
+
+#: src/ghb3.ui:5619
+msgid "More Settings:"
+msgstr "Altre preferenze :"
+
+#: src/ghb3.ui:5637
+msgid ""
+"Additional encoder settings.\n"
+"\n"
+"Colon separated list of encoder options."
+msgstr ""
+"Preferenze addiziunale di u cudificatore.\n"
+"\n"
+"Lista d’ozzioni di u cudificatore staccate da dui punti."
+
+#: src/ghb3.ui:5671 src/main.c:1148
+msgid "Video"
+msgstr "Video"
+
+#. Add Button
+#: src/ghb3.ui:5735 src/ghb3.ui:5928 src/ghb3.ui:6505 src/ghb3.ui:6725
+#: src/ghb3.ui:7637 src/audiohandler.c:1754
+msgid "Add"
+msgstr "Aghjunghje"
+
+#: src/ghb3.ui:5737
+msgid "Add new audio settings to the list"
+msgstr "Aghjunghje nove preferenze audio à a lista"
+
+#: src/ghb3.ui:5747 src/ghb3.ui:6517
+msgid "Add All"
+msgstr "Tuttu aghjunghje"
+
+#: src/ghb3.ui:5749
+msgid "Add all audio tracks to the list"
+msgstr "Aghjunghje tutte e traccie audio à a lista"
+
+#: src/ghb3.ui:5762
+msgid "Reload all audio settings from defaults"
+msgstr "Ricaricà tutte e predefinizioni di e preferenze audio"
+
+#: src/ghb3.ui:5806 src/ghb3.ui:6590
+msgid "Track List"
+msgstr "Lista di e traccie"
+
+#: src/ghb3.ui:5837 src/ghb3.ui:6625
+msgid "Selection Behavior:"
+msgstr "Cumpurtamentu di a selezzione :"
+
+#: src/ghb3.ui:5852
+msgid "Choose which audio tracks of the source media are used."
+msgstr "Sciglite in u media di fonte chì traccie audio à impiegà."
+
+#: src/ghb3.ui:5913
+msgid ""
+"Create a list of languages you would like to select audio for.\n"
+"Tracks matching these languages will be selected using the chosen Selection Behavior."
+msgstr ""
+"Create une lista di e lingue per chì ci vole à selezziunà l’audio.\n"
+"E traccie currispundente à ste lingue seranu selezziunate secondu à u cumpurtamentu di selezzione."
+
+#: src/ghb3.ui:5944 src/ghb3.ui:6741
+msgid "Remove"
+msgstr "Caccià"
+
+#: src/ghb3.ui:5962 src/ghb3.ui:6759
+msgid "Available Languages"
+msgstr "Lingue dispunibule"
+
+#: src/ghb3.ui:5975 src/ghb3.ui:6772
+msgid "Selected Languages"
+msgstr "Lingue selezziunate"
+
+#: src/ghb3.ui:5991
+msgid "Use only first encoder for secondary audio"
+msgstr "Impiegà solu u primu cudificatore per a traccia audio secundaria"
+
+#: src/ghb3.ui:5996
+msgid ""
+"Only the primary audio track will be encoded with the full encoder list.\n"
+"All other secondary audio output tracks will be encoded with first encoder only."
+msgstr ""
+"Solu a traccia audio principale sera cudificata cù a lista sana di i cudificatori.\n"
+"Tutte l’altre traccie audio secundarie d’esciuta seranu cudificate solu cù u primu cudificatore."
+
+#: src/ghb3.ui:6032
+msgid "Auto Passthru:"
+msgstr "Ricopia autumatica :"
+
+#: src/ghb3.ui:6043
+msgid "MP2"
+msgstr "MP2"
+
+#: src/ghb3.ui:6048
+msgid ""
+"Enable this if your playback device supports MP2.\n"
+"This permits MP2 passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu MP2.\n"
+"Què permette di selezziunà a ricopia MP2 quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6064
+msgid "MP3"
+msgstr "MP3"
+
+#: src/ghb3.ui:6069
+msgid ""
+"Enable this if your playback device supports MP3.\n"
+"This permits MP3 passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu MP3.\n"
+"Què permette di selezziunà a ricopia MP3 quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6085
+msgid "AC-3"
+msgstr "AC-3"
+
+#: src/ghb3.ui:6090
+msgid ""
+"Enable this if your playback device supports AC-3.\n"
+"This permits AC-3 passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu AC-3.\n"
+"Què permette di selezziunà a ricopia AC-3 quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6106
+msgid "EAC-3"
+msgstr "EAC-3"
+
+#: src/ghb3.ui:6111
+msgid ""
+"Enable this if your playback device supports EAC-3.\n"
+"This permits EAC-3 passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu EAC-3.\n"
+"Què permette di selezziunà a ricopia EAC-3 quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6127
+msgid "DTS"
+msgstr "DTS"
+
+#: src/ghb3.ui:6132
+msgid ""
+"Enable this if your playback device supports DTS.\n"
+"This permits DTS passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu DTS.\n"
+"Què permette di selezziunà a ricopia DTS quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6148
+msgid "DTS-HD"
+msgstr "DTS-HD"
+
+#: src/ghb3.ui:6153
+msgid ""
+"Enable this if your playback device supports DTS-HD.\n"
+"This permits DTS-HD passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu DTS-HD.\n"
+"Què permette di selezziunà a ricopia DTS-HD quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6169
+msgid "TrueHD"
+msgstr "TrueHD"
+
+#: src/ghb3.ui:6174
+msgid ""
+"Enable this if your playback device supports TrueHD.\n"
+"This permits TrueHD passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu TrueHD.\n"
+"Què permette di selezziunà a ricopia TrueHD quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6190
+msgid "FLAC"
+msgstr "FLAC"
+
+#: src/ghb3.ui:6195
+msgid ""
+"Enable this if your playback device supports FLAC.\n"
+"This permits FLAC passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu FLAC.\n"
+"Què permette di selezziunà a ricopia FLAC quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6211
+msgid "AAC"
+msgstr "AAC"
+
+#: src/ghb3.ui:6216
+msgid ""
+"Enable this if your playback device supports AAC.\n"
+"This permits AAC passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu AAC.\n"
+"Què permette di selezziunà a ricopia AAC quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6232
+msgid "Opus"
+msgstr "Opus"
+
+#: src/ghb3.ui:6237
+msgid ""
+"Enable this if your playback device supports Opus.\n"
+"This permits Opus passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Attivà st’ozzione s’è u vostru apparechju di ripruduzzione accetta u furmatu Opus.\n"
+"Què permette di selezziunà a ricopia Opus quandu l’ozzione di ricopia autumatica hè attivata."
+
+#: src/ghb3.ui:6270
+msgid "Passthru Fallback:"
+msgstr "In casu di fiascu di a ricopia :"
+
+#: src/ghb3.ui:6282
+msgid ""
+"Set the audio codec to encode with when a suitable track can not be found "
+"for audio passthru."
+msgstr ""
+"Definisce u cudecu audio à impiegà per a cudificazione quandu ùn si pò truvà"
+" una traccia cumpatibile per a ricopia audio."
+
+#: src/ghb3.ui:6311
+msgid "<b>Audio Encoder Settings:</b>"
+msgstr "<b>Preferenze di cudificazione audio :</b>"
+
+#: src/ghb3.ui:6312
+msgid "Each selected source track will be encoded with all selected encoders"
+msgstr ""
+"Ogni traccia di fonte selezziunata serà cudificata cù tutti i cudificatori "
+"selezziunati"
+
+#: src/ghb3.ui:6337 src/ghb3.ui:9970
+msgid "Encoder"
+msgstr "Cudificatore"
+
+#: src/ghb3.ui:6348 src/ghb3.ui:9983
+msgid "Bitrate/Quality"
+msgstr "Flussu binariu/Qualità"
+
+#: src/ghb3.ui:6359
+msgid "Mixdown"
+msgstr "Mischiera"
+
+#: src/ghb3.ui:6370
+msgid "Samplerate"
+msgstr "Frequenza di campiunariu"
+
+#: src/ghb3.ui:6381 src/ghb3.ui:10027 src/queuehandler.c:617
+msgid "Gain"
+msgstr "Guadagnu"
+
+#: src/ghb3.ui:6392 src/ghb3.ui:10046
+msgid "DRC"
+msgstr "DRC"
+
+#: src/ghb3.ui:6429 src/ghb3.ui:6985
+msgid "Track Selection"
+msgstr "Selezzione di traccia"
+
+#: src/ghb3.ui:6441
+msgid "Audio"
+msgstr "Audio"
+
+#: src/ghb3.ui:6507
+msgid "Add new subtitle settings to the list"
+msgstr "Aghjunghje nove preferenze di sottutitulu à a lista"
+
+#: src/ghb3.ui:6519
+msgid "Add all subtitle tracks to the list"
+msgstr "Aghjunghje tutte e traccie di sottutitulu à a lista"
+
+#: src/ghb3.ui:6529 src/callbacks.c:2360 src/queuehandler.c:654
+#: src/queuehandler.c:1091 src/subtitlehandler.c:413
+#: src/subtitlehandler.c:1244
+msgid "Foreign Audio Scan"
+msgstr "Analisa di traccia audio straniera"
+
+#: src/ghb3.ui:6531
+msgid ""
+"Add an extra pass to the encode which searches\n"
+"for subtitle candidates that provide subtitles for\n"
+"segments of the audio that are in a foreign language."
+msgstr ""
+"Aghjunghje un passeghju cumplementariu à a\n"
+"cudificazione per circà sottutituli chì\n"
+"currispondenu à una scena in lingua straniera."
+
+#: src/ghb3.ui:6546
+msgid "Reload all subtitle settings from defaults"
+msgstr "Ricaricà tutte e predefinizioni di e preferenze di sottutitulu"
+
+#: src/ghb3.ui:6640
+msgid "Choose which subtitle tracks of the source media are used."
+msgstr "Sciglite in u media di fonte chì traccie di sottutitulu à impiegà."
+
+#: src/ghb3.ui:6705
+msgid ""
+"Create a list of languages you would like to select subtitles for.\n"
+"Tracks matching these languages will be selected using the chosen Selection Behavior.\n"
+"\n"
+"The first language in this list is your \"preferred\" language and will be used\n"
+"for determining subtitle selection settings when there is foreign audio."
+msgstr ""
+"Create une lista di e lingue per chì ci vole à selezziunà i sottutituli.\n"
+"E traccie currispundente à ste lingue seranu selezziunate secondu à u cumpurtamentu di selezzione.\n"
+"\n"
+"A prima lingua di sta lista hè a vostra lingua preferita è serà impiegata per deter-\n"
+"minà e preferenze di selezzione di sottutitulu quandu ci hè audio in lingua straniera."
+
+#: src/ghb3.ui:6786
+msgid "Preferred Language: None"
+msgstr "Lingua preferita : Nisuna"
+
+#: src/ghb3.ui:6813
+msgid "Add Foreign Audio Scan Pass"
+msgstr "Aghjunghje un passu d’analisa di traccia audio straniera"
+
+#: src/ghb3.ui:6818
+msgid ""
+"Add \"Foreign Audio Scan\" when the default audio track is your preferred language.\n"
+"This search pass finds short sequences of foreign audio and provides subtitles for them.\n"
+"\n"
+"This option requires a language to be set in the Selected Languages list."
+msgstr ""
+"Aghjunghje« Analisa di traccia audio straniera » quandu a traccia audio predefinita hè in a vostra lingua preferita.\n"
+"Stu passu ricerca e corte sequenze di traccia audio straniera per pruvedele sottutituli.\n"
+"\n"
+"St'ozzione richiede chì una lingua sia definita in a lista di e lingue selezziunate."
+
+#: src/ghb3.ui:6833
+msgid "Add subtitle track if default audio is foreign"
+msgstr ""
+"Aghjunghje una traccia di sottutitulu s’è a lingua predefinita di l’audio hè"
+" straniera"
+
+#: src/ghb3.ui:6838
+msgid ""
+"When the default audio track is not your preferred language, add a subtitle track.\n"
+"\n"
+"This option requires a language to be set in the Selected Languages list."
+msgstr ""
+"Quandu a traccia audio predefinita ùn hè micca in a vostra lingua preferita, aghjunghje una traccia di sottutitulu.\n"
+"\n"
+"St'ozzione richiede chì una lingua sia definita in a lista di e lingue selezziunate."
+
+#: src/ghb3.ui:6852
+msgid "Add Closed Captions when available"
+msgstr "Aghjunghje e legende chjose (CC) s’elle sò dispunibule"
+
+#: src/ghb3.ui:6857
+msgid ""
+"Closed captions are text subtitles that can be added to any container as a "
+"soft subtitle track"
+msgstr ""
+"E legende chjose sò sottutituli di testu chì ponu esse aghjunti à tuttu "
+"furmatu di cuntenidore tale una traccia di sottutituli incavalcati"
+
+#: src/ghb3.ui:6878
+msgid "Burn-In Behavior*:"
+msgstr "Cumpurtamentu d’intarsiatura* :"
+
+#: src/ghb3.ui:6890
+msgid ""
+"Set the behavior of subtitle \"Burn-In\".\n"
+"\n"
+"Burned-In subtitles are part of the video and can not be disabled during playback.\n"
+"Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
+msgstr ""
+"Definisce u cumpurtamentu d’un sottutitulu d’« intarsiatura ».\n"
+"\n"
+"I sottutituli intarsiati facenu parte di a video è ùn ponu micca esse disattivati durante a lettura.\n"
+"Solu una traccia di sottutitulu pò esse intarsiata ! In casu di cunflittu, ghjè a prima scelta chì supraneghja."
+
+#: src/ghb3.ui:6917
+msgid "Burn-In for deficient players*:"
+msgstr "Intarsiatura per i lettori deficienti* :"
+
+#: src/ghb3.ui:6926
+msgid "DVD Subtitles"
+msgstr "Sottutituli DVD"
+
+#: src/ghb3.ui:6931
+msgid ""
+"Burn the first selected DVD subtitle track. All other DVD subtitle tracks will be discarded.\n"
+"Use this option if your player software or device does not support DVD subtitles.\n"
+"\n"
+"Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
+msgstr ""
+"Impruntà a prima traccia di sottutitulu selezziunata di u DVD. Tutte l’altre traccie di sottutitulu di u DVD seranu scartate.\n"
+"Impiegà st’ozzione s’è u vostru prugramma di lettura o s’è u vostru apparechju ùn accetta micca i sottutituli DVD.\n"
+"\n"
+"Solu una traccia di sottutitulu pò esse intarsiata ! In casu di cunflittu, ghjè a prima scelta chì supraneghja."
+
+#: src/ghb3.ui:6945
+msgid "Blu-ray Subtitles"
+msgstr "Sottutituli Blu-ray"
+
+#: src/ghb3.ui:6950
+msgid ""
+"Burn the first selected Blu-ray subtitle track. All other Blu-ray subtitle tracks will be discarded.\n"
+"Use this option if your player software or device does not support Blu-ray subtitles.\n"
+"\n"
+"Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
+msgstr ""
+"Impruntà a prima traccia di sottutitulu selezziunata di u Blu-ray. Tutte l’altre traccie di sottutitulu di u Blu-ray seranu scartate.\n"
+"Impiegà st’ozzione s’è u vostru prugramma di lettura o s’è u vostru apparechju ùn accetta micca i sottutituli Blu-ray.\n"
+"\n"
+"Solu una traccia di sottutitulu pò esse intarsiata ! In casu di cunflittu, ghjè a prima scelta chì supraneghja."
+
+#: src/ghb3.ui:6972
+msgid ""
+"<small>* Only one of the above subtitle burn options will be applied, "
+"starting with the top.</small>"
+msgstr ""
+"<small>* Sola una di st’ozzioni d’intarsiatura di sottutitulu insù serà "
+"appiecata, principiendu da l’altu.</small>"
+
+#: src/ghb3.ui:6973
+msgid ""
+"Only one subtitle track can be burned! Since conflicts can occur, the first "
+"chosen wins."
+msgstr ""
+"Solu una traccia di sottutitulu pò esse intarsiata ! In casu di cunflittu, "
+"ghjè a prima scelta chì supraneghja."
+
+#: src/ghb3.ui:6997
+msgid "Subtitles"
+msgstr "Sottutituli"
+
+#: src/ghb3.ui:7012 src/callbacks.c:2417 src/queuehandler.c:283
+msgid "Chapter Markers"
+msgstr "Marcatori di capitulu"
+
+#: src/ghb3.ui:7017
+msgid "Add chapter markers to output file."
+msgstr "Aghjunghje marcatori di capitulu à u schedariu d’esciuta."
+
+#: src/ghb3.ui:7051
+msgid "Index"
+msgstr "Indice"
+
+#: src/ghb3.ui:7075
+msgid "Duration"
+msgstr "Durata"
+
+#: src/ghb3.ui:7086
+msgid "Title"
+msgstr "Titulu"
+
+#: src/ghb3.ui:7123
+msgid "Chapters"
+msgstr "Capituli"
+
+#: src/ghb3.ui:7178
+msgid "Actors:"
+msgstr "Attori :"
+
+#: src/ghb3.ui:7213
+msgid "Director:"
+msgstr "Direttore :"
+
+#: src/ghb3.ui:7248
+msgid "Release Date:"
+msgstr "Data d’esciuta :"
+
+#: src/ghb3.ui:7283
+msgid "Comment:"
+msgstr "Cummentu :"
+
+#: src/ghb3.ui:7318
+msgid "Genre:"
+msgstr "Generu :"
+
+#: src/ghb3.ui:7353
+msgid "Description:"
+msgstr "Discrizzione :"
+
+#: src/ghb3.ui:7388
+msgid "Plot:"
+msgstr "Scenariu :"
+
+#: src/ghb3.ui:7426
+msgid "Tags"
+msgstr "Etichette"
+
+#: src/ghb3.ui:7456
+msgid "<b>Save As:</b>"
+msgstr "<b>Arregistrà cum’è :</b>"
+
+#: src/ghb3.ui:7470
+msgid "Destination filename for your encode."
+msgstr "Nome di schedariu di destinazione per a vostra cudificazione."
+
+#: src/ghb3.ui:7490
+msgid "<b>To:</b>"
+msgstr "<b>In :</b>"
+
+#: src/ghb3.ui:7503
+msgid "Destination directory for your encode."
+msgstr "Cartulare di destinazione per a vostra cudificazione."
+
+#: src/ghb3.ui:7506 src/queuehandler.c:2272
+msgid "Destination Directory"
+msgstr "Cartulare di destinazione"
+
+#: src/ghb3.ui:7621
+msgid "Add Multiple Titles"
+msgstr "Aghjunghje parechji tituli"
+
+#: src/ghb3.ui:7629 src/ghb3.ui:8597 src/ghb3.ui:8754 src/ghb3.ui:9435
+#: src/ghb3.ui:9845 src/callbacks.c:5613 src/callbacks.c:5621
+#: src/callbacks.c:5630 src/hb-backend.c:4316 src/hb-backend.c:4349
+#: src/hb-backend.c:4388 src/hb-backend.c:4419 src/hb-backend.c:4447
+#: src/hb-backend.c:4493 src/hb-backend.c:4550 src/hb-backend.c:4570
+#: src/hb-backend.c:4590 src/hb-backend.c:4651 src/hb-backend.c:4706
+#: src/presets.c:2463 src/queuehandler.c:1880 src/queuehandler.c:1897
+#: src/queuehandler.c:1911 src/queuehandler.c:1926
+msgid "Cancel"
+msgstr "Abbandunà"
+
+#: src/ghb3.ui:7670
+msgid "Select All"
+msgstr "Tuttu selezziunà"
+
+#: src/ghb3.ui:7674
+msgid "Mark all titles for adding to the queue"
+msgstr "Marcà tutti i tituli per esse aghjunti à a fila d’attesa"
+
+#: src/ghb3.ui:7687
+msgid "Clear All"
+msgstr "Tuttu viutà"
+
+#: src/ghb3.ui:7691
+msgid "Unmark all titles"
+msgstr "Caccià e marche da tutti i tituli"
+
+#: src/ghb3.ui:7752
+msgid "Destination files OK.  No duplicates detected."
+msgstr "I schedarii di destinazione sò valevule.  Nisunu duppione trovu."
+
+#: src/ghb3.ui:7774 src/ghb3.ui:7786
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: src/ghb3.ui:7877
+msgid "Automatically check for updates"
+msgstr "Cuntrollà autumaticamente i rinnovi"
+
+#: src/ghb3.ui:7914
+msgid "Default action when all encodes are complete"
+msgstr "Azzione predefinita quandu tutte e cudificazioni sò compie"
+
+#: src/ghb3.ui:7936
+msgid "Use automatic naming (uses modified source name)"
+msgstr ""
+"Impiegà a scelta autumatica di u nome (cù un nome di fonte mudificatu)"
+
+#: src/ghb3.ui:7937
+msgid "Create destination filename from source filename or volume label"
+msgstr ""
+"Creà u nome di u schedariu di destinazione da quellu di a fonte o da u nome "
+"di vulume"
+
+#: src/ghb3.ui:7961
+msgid "Auto-Name Template"
+msgstr "Mudellu di a scelta autumatica di u nome"
+
+#: src/ghb3.ui:7972
+msgid ""
+"Available Options: {source-path} {source} {title} {preset} {chapters} {date}"
+" {time} {creation-date} {creation-time} {quality} {bitrate}"
+msgstr ""
+"Ozzioni dispunibule : {source-path} {source} {title} {preset} {chapters} "
+"{date} {time} {creation-date} {creation-time} {quality} {bitrate}"
+
+#: src/ghb3.ui:7992
+msgid "Use iPod/iTunes friendly (.m4v) file extension for MP4"
+msgstr ""
+"Impiegà un’estensione di schedariu cumpatibile iPod/iTunes (.m4v) per i MP4"
+
+#: src/ghb3.ui:8035
+msgid "Number of previews"
+msgstr "Numeru di fighjulate"
+
+#: src/ghb3.ui:8073
+msgid "Filter short DVD and Blu-ray titles (seconds)"
+msgstr "Filtrazione di i tituli corti di DVD è Blu-ray (seconde)"
+
+#: src/ghb3.ui:8087
+msgid "Clear completed queue items after an encode completes"
+msgstr ""
+"Squassà l’elementi compii di a fila d’attesa quandu una cudificazione si "
+"pianta"
+
+#: src/ghb3.ui:8091
+msgid ""
+"By default, completed jobs remain in the queue and are marked as complete.\n"
+"Check this if you want the queue to clean itself up by deleting completed jobs."
+msgstr ""
+"Di regula, i travagli compii stanu in a fila d’attesa è sò marcati cum’è compii.\n"
+"Attivà st’ozzione per chì a fila d’attesa si vioti autumaticamente cacciendu i travagli compii."
+
+#: src/ghb3.ui:8104
+msgid "General"
+msgstr "Generale"
+
+#: src/ghb3.ui:8129
+msgid "Set a custom directory for Handbrake temporary files"
+msgstr ""
+"Definisce un cartulare persunalizatu per i schedarii timpurarii d’HandBrake"
+
+#: src/ghb3.ui:8133 src/ghb3.ui:8153
+msgid ""
+"Temporary files that HandBrake creates will be placed under this directory.\n"
+"\n"
+"Changing this setting will require restarting HandBrake.\n"
+"\n"
+"This setting overrides the TEMP environment variable that is normally used to define this directory.\n"
+"\n"
+"Flatpak users may need to set this for certain workflows to work properly. The default size of the TEMP directory in a flatpak sandbox is 1/2 physical memory size and may be too small for things like the 2-pass stats file."
+msgstr ""
+"I schedarii timpurarii chì HandBrake hà da creà seranu piazzati in stu cartulare.\n"
+"\n"
+"Cambià sta preferenza richiiderà u rilanciu d’HandBrake.\n"
+"\n"
+"Sta preferenza supraneghja a variabile d’ambiente TEMP chì hè impiegata di regula per definisce stu cartulare.\n"
+"\n"
+"L’utilizatori di Flatpak ponu avè bisognu à definisce què per chì certi flussi di trattamentu funziuneghjinu currettamente. A dimensione predefinita di u cartulare TEMP in un « sandbox » flatpak hè a metà di a memoria fisica, è què puderia esse troppu chjuca per certi schedarii cum’è quellu schedariu di statistiche d’una cudificazione à 2 passi."
+
+#: src/ghb3.ui:8163
+msgid "Temp Directory"
+msgstr "Cartulare timpurariu"
+
+#: src/ghb3.ui:8203
+msgid "Constant Quality fractional granularity"
+msgstr "Granularità frazziunale di qualità custente"
+
+#: src/ghb3.ui:8220
+msgid "Use dvdnav (instead of libdvdread)"
+msgstr "Impiegà dvdnav (piuttostu chì libdvdread)"
+
+#: src/ghb3.ui:8243
+msgid "Monitor destination disk free space"
+msgstr "Cuttighjà u spaziu liberu di u discu di destinazione"
+
+#: src/ghb3.ui:8247 src/ghb3.ui:8269
+msgid "Pause encoding if free disk space drops below limit"
+msgstr ""
+"Interrompe a cudificazione s’è u spaziu liberu di u discu fala sottu una "
+"limita"
+
+#: src/ghb3.ui:8284
+msgid "MB Limit"
+msgstr "Limita in Mo"
+
+#: src/ghb3.ui:8312
+msgid "Put individual encode logs in same location as movie"
+msgstr ""
+"Piazzà i ghjurnali di messaghji di cudificazione in u listessu locu chì u "
+"filmu"
+
+#: src/ghb3.ui:8348
+msgid "Activity Log Verbosity Level"
+msgstr "Livellu di verbusità di u ghjurnale d’attività"
+
+#: src/ghb3.ui:8383
+msgid "Activity Log Longevity"
+msgstr "Durata di vita di u ghjurnale d’attività"
+
+#: src/ghb3.ui:8404
+msgid "Scale down High Definition previews"
+msgstr "Riduce l’alta definizione di e fighjulate"
+
+#: src/ghb3.ui:8421
+msgid "Automatically Scan DVD when loaded"
+msgstr "Analizà autumaticamente u DVD à u so caricamentu"
+
+#: src/ghb3.ui:8425
+msgid "Scans the DVD whenever a new disc is loaded"
+msgstr "Analisa di u DVD quandu un discu hè caricatu"
+
+#: src/ghb3.ui:8463
+msgid "Activity Window Font Size"
+msgstr "Dimensione di a grafia di a finestra d’attività"
+
+#: src/ghb3.ui:8480
+msgid "Use the same settings for all titles in a batch"
+msgstr ""
+"Impiegà e listesse preferenze per tutti i tituli in un trattamentu da lottu"
+
+#: src/ghb3.ui:8484
+msgid ""
+"When checked, every title will use the same settings when adding a\n"
+"batch of titles to the queue.\n"
+"\n"
+"Uncheck this if you want to allow changing each title's settings independently."
+msgstr ""
+"Quandu st’ozzione hè attiva, ogni titulu impiegerà e listesse preferenze\n"
+"à l’aghjuntu d’un lottu di tituli à a fila d’attesa.\n"
+"\n"
+"Disattivatela per permette u cambiamentu di e preferenze d’ogni titulu indipendentemente."
+
+#: src/ghb3.ui:8501
+msgid "Show preview image in Summary tab"
+msgstr "Affissà e fighjulate nant’à l’unghjetta Riassuntu"
+
+#: src/ghb3.ui:8507
+msgid ""
+"Uncheck this if you want to hide the video preview image on the Summary tab "
+"for privacy reasons."
+msgstr ""
+"Disattivate st’ozzione s’è vo vulete piattà e fighjulate di e video nant’à "
+"l’unghjetta Riassuntu per raghjoni di cunfidenzialità."
+
+#: src/ghb3.ui:8530
+msgid "Allow Tweaks"
+msgstr "Permette l’adattazioni"
+
+#: src/ghb3.ui:8546
+msgid "Allow HandBrake For Dummies"
+msgstr "Permette HandBrake per i principianti"
+
+#: src/ghb3.ui:8568
+msgid "Advanced"
+msgstr "Espertu"
+
+#: src/ghb3.ui:8585
+msgid "Rename Preset"
+msgstr "Rinuminà a prerigatura"
+
+#: src/ghb3.ui:8647
+msgid "<span size=\"x-large\">Rename Preset</span>"
+msgstr "<span size=\"x-large\">Prerigatura di cambiamentu di nome</span>"
+
+#: src/ghb3.ui:8667
+msgid "Name:"
+msgstr "Nome :"
+
+#: src/ghb3.ui:8724 src/ghb3.ui:8997
+msgid "<b>Description</b>"
+msgstr "<b>Discrizzione</b>"
+
+#: src/ghb3.ui:8742
+msgid "Save Preset"
+msgstr "Arregistrà a prerigatura"
+
+#: src/ghb3.ui:8810
+msgid "Category:"
+msgstr "Categuria :"
+
+#: src/ghb3.ui:8825
+msgid "Set the category that this preset will be shown under."
+msgstr "Definisce a categuria sottu quella sta prerigatura serà affissata."
+
+#: src/ghb3.ui:8841
+msgid "Category Name:"
+msgstr "Nome di a categuria :"
+
+#: src/ghb3.ui:8874
+msgid "Preset Name:"
+msgstr "Nome di a prerigatura :"
+
+#: src/ghb3.ui:8908
+msgid "Default Preset"
+msgstr "Prerigatura predefinita"
+
+#: src/ghb3.ui:8913
+msgid "Make this the default Preset when HandBrake starts"
+msgstr ""
+"Definisce sta prerigatura cum’è predefinita quandu HandBrake si lancia"
+
+#: src/ghb3.ui:8939
+msgid "<b>Dimensions</b>"
+msgstr "<b>Dimensioni</b>"
+
+#: src/ghb3.ui:9020
+msgid "HandBrake Preview"
+msgstr "Fighjulata HandBrake"
+
+#: src/ghb3.ui:9101
+msgid "Select preview frames."
+msgstr "Selezziunà e sequenze di a fighjulata."
+
+#: src/ghb3.ui:9123
+msgid ""
+"Encode and play a short sequence of video starting from the current preview "
+"position."
+msgstr ""
+"Cudificà è leghje una corta sequenza di video principiendu à a pusizione "
+"attuale di fighjulata."
+
+#: src/ghb3.ui:9179
+msgid "Click to toggle full screen mode"
+msgstr "Cliccu per attivà o disattivà u modu di screnu sanu"
+
+#: src/ghb3.ui:9215
+msgid "<b>Duration:</b>"
+msgstr "<b>Durata :</b>"
+
+#: src/ghb3.ui:9227
+msgid "Set the duration of the live preview in seconds."
+msgstr "Definisce a durata in seconde di a fighjulata diretta."
+
+#: src/ghb3.ui:9243
+msgid "Show Crop"
+msgstr "Affissà a runzicatura"
+
+#: src/ghb3.ui:9247
+msgid "Show Cropped area of the preview"
+msgstr "Affissà l’area di runzicatura nant’à a fighjulata"
+
+#: src/ghb3.ui:9258
+msgid "Source Resolution"
+msgstr "Risuluzione di a fonte"
+
+#: src/ghb3.ui:9262
+msgid "Reset preview window to the source video's resolution"
+msgstr "Reinizià a finestra di fighjulata à a risuluzione di a video di fonte"
+
+#: src/ghb3.ui:9295
+msgid "_Cancel"
+msgstr "_Abbandunà"
+
+#: src/ghb3.ui:9304
+msgid "_Open"
+msgstr "_Apre"
+
+#: src/ghb3.ui:9337
+msgid "Title Number:"
+msgstr "Numeru di titulu :"
+
+#: src/ghb3.ui:9373
+msgid "Detected DVD devices:"
+msgstr "Lettori DVD scuperti :"
+
+#: src/ghb3.ui:9422 src/subtitlehandler.c:1742
+msgid "Edit Subtitles"
+msgstr "Mudificà i sottutituli"
+
+#: src/ghb3.ui:9477
+msgid "Import SRT"
+msgstr "Impurtà SRT"
+
+#: src/ghb3.ui:9482
+msgid "Enable settings to import an SRT subtitle file"
+msgstr ""
+"Attivà e preferenze per l’impurtazione di schedarii di sottutitulu SRT"
+
+#: src/ghb3.ui:9493
+msgid "Import SSA"
+msgstr "Impurtà SSA"
+
+#: src/ghb3.ui:9498
+msgid "Enable settings to import an SSA subtitle file"
+msgstr ""
+"Attivà e preferenze per l’impurtazione di schedarii di sottutitulu SSA"
+
+#: src/ghb3.ui:9510
+msgid "Embedded Subtitle List"
+msgstr "Lista di i sottutituli incurpurati"
+
+#: src/ghb3.ui:9515
+msgid "Enable settings to select embedded subtitles"
+msgstr "Attivà e preferenze per selezziunà i sottutituli incurpurati"
+
+#: src/ghb3.ui:9542 src/ghb3.ui:9890
+msgid "Source Track"
+msgstr "Traccia di fonte"
+
+#: src/ghb3.ui:9557
+msgid "List of subtitle tracks available from your source."
+msgstr "Lista di e traccie di sottutitulu dispunibule per a vostra fonte."
+
+#: src/ghb3.ui:9571 src/ghb3.ui:9920
+msgid "Track Name:"
+msgstr "Nome di a traccia :"
+
+#: src/ghb3.ui:9587
+msgid ""
+"Set the subtitle track name.\n"
+"\n"
+"Players may use this in the subtitle selection list."
+msgstr ""
+"Definisce u nome di a traccia di sottutitulu.\n"
+"\n"
+"I lettori ponu impiegallu in a lista di selezzione di sottutitulu."
+
+#: src/ghb3.ui:9620
+msgid "Language"
+msgstr "Lingua"
+
+#: src/ghb3.ui:9634
+msgid "Character Code"
+msgstr "Codice di caratteru"
+
+#: src/ghb3.ui:9648
+msgid "File:"
+msgstr "Schedariu :"
+
+#: src/ghb3.ui:9663
+msgid "Offset (ms)"
+msgstr "Staccamentu (ms)"
+
+#: src/ghb3.ui:9678
+msgid ""
+"Set the language of this subtitle.\n"
+"This value will be used by players in subtitle menus."
+msgstr ""
+"Definisce a lingua di stu sottutitulu.\n"
+"Stu valore serà impiegatu da i lettori in u listinu di i sottutituli."
+
+#: src/ghb3.ui:9696
+msgid ""
+"Set the character code used by the SRT file you are importing.\n"
+"\n"
+"SRTs come in all flavours of character sets.\n"
+"We translate the character set to UTF-8.\n"
+"The source's character code is needed in order to perform this translation."
+msgstr ""
+"Definisce u codice di caratteru impiegatu à l’impurtazione di u schedariu SRT.\n"
+"\n"
+"SRT ghjunghje cù tutte e pussibilità di codici di caratteru.\n"
+"Traducemu u codice di caratteru in UTF-8.\n"
+"Avemu bisognu di u codice di caratteru di a fonte per fà sta traduzzione."
+
+#: src/ghb3.ui:9720
+msgid "Select the SRT file to import."
+msgstr "Selezziunà u schedariu SRT à impurtà."
+
+#: src/ghb3.ui:9723
+msgid "Import File"
+msgstr "Impurtà u schedariu"
+
+#: src/ghb3.ui:9741
+msgid "Adjust the offset in milliseconds between video and SRT timestamps"
+msgstr ""
+"Adattà u staccamentu in milliseconde trà e stampiglie di video è di SRT"
+
+#: src/ghb3.ui:9765 src/subtitlehandler.c:118
+msgid "Forced Subtitles Only"
+msgstr "Solu sottutituli sfurzati"
+
+#: src/ghb3.ui:9786
+msgid "Burn into video"
+msgstr "Intarsià in a video"
+
+#: src/ghb3.ui:9791
+msgid ""
+"Render the subtitle over the video.\n"
+"The subtitle will be part of the video and can not be disabled."
+msgstr ""
+"Affissà i sottutituli sopra a video.\n"
+"I sottutituli facenu parte di a video è ùn pudenu micca esse disattivati."
+
+#: src/ghb3.ui:9803
+msgid "Set Default Track"
+msgstr "Sceglie a traccia predefinita"
+
+#: src/ghb3.ui:9832 src/audiohandler.c:1470
+msgid "Edit Audio Track"
+msgstr "Mudificà a traccia audio"
+
+#: src/ghb3.ui:9906
+msgid "List of audio tracks available from your source."
+msgstr "Lista di e traccie di sottutitulu dispunibule per a vostra fonte."
+
+#: src/ghb3.ui:9936
+msgid ""
+"Set the audio track name.\n"
+"\n"
+"Players may use this in the audio selection list."
+msgstr ""
+"Definisce u nome di a traccia audio.\n"
+"\n"
+"I lettori ponu impiegallu in a lista di selezzione audio."
+
+#: src/ghb3.ui:9999
+msgid "Mix"
+msgstr "Mischju"
+
+#: src/ghb3.ui:10012
+msgid "Sample Rate"
+msgstr "Frequenza di campiunariu"
+
+#: src/ghb3.ui:10042 src/ghb3.ui:10281 src/audiohandler.c:1927
+msgid ""
+"<b>Dynamic Range Compression:</b> Adjust the dynamic range of the output audio track.\n"
+"\n"
+"For source audio that has a wide dynamic range (very loud and very soft sequences),\n"
+"DRC allows you to 'compress' the range by making loud sounds softer and soft sounds louder."
+msgstr ""
+"<b>Stesa dinamica di cumpressione :</b> Accumudà a stesa dinamica di a traccia audio d’esciuta.\n"
+"\n"
+"Per a fonte audio chì hà una stesa dinamica larga (sequenze assai forte è assai debule), DRC\n"
+"vi permette di « cumprime » a stesa addulciscendu i soni forti è rinfurzendu i soni debule."
+
+#: src/ghb3.ui:10063 src/audiohandler.c:1778
+msgid "Set the audio codec to encode this track with."
+msgstr "Definisce u cudecu audio per cudificà sta traccia."
+
+#: src/ghb3.ui:10085 src/audiohandler.c:1792
+msgid "Bitrate"
+msgstr "Flussu binariu"
+
+#: src/ghb3.ui:10090
+msgid "Enable bitrate setting"
+msgstr "Attivà a preferenza di flussu binariu"
+
+#: src/ghb3.ui:10100 src/audiohandler.c:1797
+msgid "Quality"
+msgstr "Qualità"
+
+#: src/ghb3.ui:10105
+msgid "Enable quality setting"
+msgstr "Attivà a preferenza di qualità"
+
+#: src/ghb3.ui:10126 src/audiohandler.c:1811
+msgid "Set the bitrate to encode this track with."
+msgstr "Definisce u flussu binariu per cudificà sta traccia."
+
+#: src/ghb3.ui:10146
+msgid ""
+"<b>Quality:</b> For output codec's that support it, adjust the quality of "
+"the output."
+msgstr ""
+"<b>Qualità :</b> Per i cudechi d’esciuta chì l’accettanu, què permette "
+"d’accumudà a qualità di l’esciuta."
+
+#: src/ghb3.ui:10168
+msgid "00.0"
+msgstr "00.0"
+
+#: src/ghb3.ui:10195 src/audiohandler.c:1863
+msgid "Set the mixdown of the output audio track."
+msgstr "Definisce a mischiera di a traccia audio d’esciuta."
+
+#: src/ghb3.ui:10211 src/audiohandler.c:1876
+msgid "Set the sample rate of the output audio track."
+msgstr "Definisce a frequenza di campiunariu di a traccia audio d’esciuta."
+
+#: src/ghb3.ui:10234 src/audiohandler.c:1897
+msgid ""
+"<b>Audio Gain:</b> Adjust the amplification or attenuation of the output "
+"audio track."
+msgstr ""
+"<b>Guadagnu audio :</b> Per accumudata l’amplificazione o l’attenuazione di "
+"a traccia audio d’esciuta."
+
+#. Audio Gain Label
+#: src/ghb3.ui:10252 src/audiohandler.c:1907
+msgid "0dB"
+msgstr "0 dB"
+
+#. Audio DRC Label
+#: src/ghb3.ui:10299 src/audiohandler.c:424 src/audiohandler.c:762
+#: src/audiohandler.c:1165 src/audiohandler.c:1941 src/callbacks.c:5385
+#: src/hb-backend.c:200 src/hb-backend.c:213 src/hb-backend.c:225
+#: src/hb-backend.c:250 src/hb-backend.c:321 src/hb-backend.c:333
+#: src/hb-backend.c:345 src/hb-backend.c:406
+#, c-format
+msgid "Off"
+msgstr "Nò"
+
+#: src/ghb3.ui:10324
+msgid "HandBrake Updater"
+msgstr "Rinnuvadore d’HandBrake"
+
+#: src/ghb3.ui:10336
+msgid "Skip This Version"
+msgstr "Ignurà sta versione"
+
+#: src/ghb3.ui:10344
+msgid "Remind Me Later"
+msgstr "Rammintatemi un altra volta"
+
+#: src/ghb3.ui:10413
+msgid "<b>A new version of HandBrake is available!</b>"
+msgstr "<b>Una nova versione d’HandBrake hè dispunibule !</b>"
+
+#: src/ghb3.ui:10429
+msgid "HandBrake xxx is now available (you have yyy)."
+msgstr "HandBrake xxx hè dispunibule avà (avete yyy)."
+
+#: src/ghb3.ui:10457
+msgid "<b>Release Notes</b>"
+msgstr "<b>Annutazioni di versione</b>"
+
+#: src/audiohandler.c:436 src/audiohandler.c:758 src/audiohandler.c:1233
+#, c-format
+msgid "%ddB"
+msgstr "%d dB"
+
+#: src/audiohandler.c:734
+msgid "Quality: "
+msgstr "Qualità : "
+
+#: src/audiohandler.c:741
+#, c-format
+msgid "Bitrate: %dkbps\n"
+msgstr "Flussu binariu : %dkbps\n"
+
+#: src/audiohandler.c:753
+#, c-format
+msgid "%.4gkHz"
+msgstr "%.4g kHz"
+
+#: src/audiohandler.c:768
+#, c-format
+msgid "<small>%d - %s (%.4gkHz)</small>"
+msgstr "<small>%d - %s (%.4g kHz)</small>"
+
+#: src/audiohandler.c:773
+#, c-format
+msgid "Bitrate: %.4gkbps"
+msgstr "Flussu binariu : %.4gkbps"
+
+#: src/audiohandler.c:779
+#, c-format
+msgid "<small>Passthrough</small>"
+msgstr "<small>Ricopia</small>"
+
+#: src/audiohandler.c:788
+#, c-format
+msgid ""
+"%sGain: %s\n"
+"DRC: %s\n"
+"Track Name: %s"
+msgstr ""
+"%sGuadagnu : %s\n"
+"DRC : %s\n"
+"Nome di a traccia : %s"
+
+#: src/audiohandler.c:793
+#, c-format
+msgid ""
+"%sGain: %s\n"
+"DRC: %s"
+msgstr ""
+"%sGuadagnu : %s\n"
+"DRC : %s"
+
+#: src/audiohandler.c:1388
+msgid "Add Audio Track"
+msgstr "Rinnuvadore d’HandBrake"
+
+#: src/audiohandler.c:1756
+msgid ""
+"Add an audio encoder.\n"
+"Each selected source track will be encoded with all selected encoders."
+msgstr ""
+"Aghjunghje un cudificatore audio.\n"
+"Ogni traccia di fonte selezziunata serà cudificata cù tutti i cudificatori selezziunati."
+
+#: src/audiohandler.c:1836
+msgid ""
+"<b>Audio Quality:</b>\n"
+"For encoders that support it, adjust the quality of the output."
+msgstr ""
+"<b>Qualità audio :</b> Per i cudificatori chì l’accettanu, què permette "
+"d’accumudà a qualità di l’esciuta."
+
+#: src/audiohandler.c:1956
+msgid "Remove this audio encoder"
+msgstr "Caccià stu cudificatore audio"
+
+#: src/callbacks.c:733 src/callbacks.c:2081
+msgid "Closing HandBrake will terminate encoding.\n"
+msgstr "L’esce d’HandBrake pianterà sta cudificazione.\n"
+
+#: src/callbacks.c:1315
+msgid "Not Selected"
+msgstr "Micca selezziunatu"
+
+#. This needs to be in scanning and working since scanning
+#. happens fast enough that it can be missed
+#: src/callbacks.c:1651 src/callbacks.c:4377
+msgid "Scanning ..."
+msgstr "Esplurazione…"
+
+#: src/callbacks.c:1687 src/callbacks.c:1688
+msgid "Stop Scan"
+msgstr "Piantà l’esplurazione"
+
+#: src/callbacks.c:2179 src/callbacks.c:2275
+msgid "FPS"
+msgstr "FPS"
+
+#: src/callbacks.c:2180
+msgid "Audio Track"
+msgid_plural "Audio Tracks"
+msgstr[0] "Traccia audio"
+msgstr[1] "Traccie audio"
+
+#: src/callbacks.c:2181
+msgid "Subtitle Track"
+msgid_plural "Subtitle Tracks"
+msgstr[0] "Traccia di sottutitulu"
+msgstr[1] "Traccie di sottutitulu"
+
+#: src/callbacks.c:2279
+msgid "CFR"
+msgstr "CFR"
+
+#: src/callbacks.c:2283
+msgid "PFR"
+msgstr "PFR"
+
+#: src/callbacks.c:2287
+msgid "VFR"
+msgstr "VFR"
+
+#: src/callbacks.c:2329
+#, c-format
+msgid "+ %d more audio track"
+msgid_plural "+ %d more audio tracks"
+msgstr[0] "+ %d traccia audio di più"
+msgstr[1] "+ %d traccie audio di più"
+
+#: src/callbacks.c:2363 src/callbacks.c:2395 src/queuehandler.c:657
+#: src/queuehandler.c:694
+#, c-format
+msgid ", Forced Only"
+msgstr ", sfurzatu solu"
+
+#: src/callbacks.c:2367 src/callbacks.c:2399 src/queuehandler.c:661
+#: src/queuehandler.c:698
+#, c-format
+msgid ", Burned"
+msgstr ", Intarsiatu"
+
+#: src/callbacks.c:2371 src/callbacks.c:2403 src/queuehandler.c:665
+#: src/queuehandler.c:702
+#, c-format
+msgid ", Default"
+msgstr ", predefinitu"
+
+#: src/callbacks.c:2409
+#, c-format
+msgid "+ %d more subtitle track"
+msgid_plural "+ %d more subtitle tracks"
+msgstr[0] "+ %d traccia di sottutitulu di più"
+msgstr[1] "+ %d traccie di sottutitulu di più"
+
+#: src/callbacks.c:2564
+msgid "storage"
+msgstr "allucamentu"
+
+#: src/callbacks.c:2565
+msgid "display"
+msgstr "affissera"
+
+#: src/callbacks.c:2566
+msgid "Pixel Aspect Ratio"
+msgstr "Prupurzioni di pixel"
+
+#: src/callbacks.c:2567
+msgid "Display Aspect Ratio"
+msgstr "Prupurzioni d’affissera"
+
+#: src/callbacks.c:2703 src/hb-backend.c:2263 src/hb-backend.c:2383
+#: src/hb-backend.c:2395
+msgid "No Title Found"
+msgstr "Nisunu titulu trovu"
+
+#: src/callbacks.c:2704
+msgid "New Video"
+msgstr "Nova video"
+
+#: src/callbacks.c:3685 src/callbacks.c:3698 src/callbacks.c:3720
+#: src/callbacks.c:3758
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"%s in %d seconds ..."
+msgstr ""
+"%s\n"
+"\n"
+"%s in %d seconde…"
+
+#: src/callbacks.c:3852 src/callbacks.c:3903
+#, c-format
+msgid "%sYour movie will be lost if you don't continue encoding."
+msgstr ""
+"%sU vostru filmu serà persu s’è vo ùn cuntinuate micca a cudificazione."
+
+#: src/callbacks.c:3855 src/callbacks.c:3906 src/queuehandler.c:1817
+msgid "Cancel Current and Stop"
+msgstr "Abbandunà l’attuale è piantà"
+
+#: src/callbacks.c:3856
+msgid "Cancel Current, Start Next"
+msgstr "Abbandunà l’attuale, principià u seguente"
+
+#: src/callbacks.c:3857
+msgid "Finish Current, then Stop"
+msgstr "Compie l’attuale eppò piantà"
+
+#: src/callbacks.c:3858 src/callbacks.c:3907
+msgid "Continue Encoding"
+msgstr "Cuntinuà a cudificazione"
+
+#: src/callbacks.c:4090
+#, c-format
+msgid "%d encode pending"
+msgstr "%d cudificazione in attesa"
+
+#: src/callbacks.c:4094
+#, c-format
+msgid "%d encodes pending"
+msgstr "%d cudificazioni in attesa"
+
+#: src/callbacks.c:4151 src/callbacks.c:4219
+#, c-format
+msgid "job %d of %d, "
+msgstr "travagliu %d nant’à %d, "
+
+#: src/callbacks.c:4161
+#, c-format
+msgid "pass %d (subtitle scan) of %d, "
+msgstr "passu %d (analisa di i sottutituli) nant’à %d, "
+
+#: src/callbacks.c:4166
+#, c-format
+msgid "pass %d of %d, "
+msgstr "passu %d nant’à %d, "
+
+#: src/callbacks.c:4179
+#, c-format
+msgid "Encoding: %s%s%.2f %% (%.2f fps, avg %.2f fps, ETA %02dh%02dm%02ds)"
+msgstr ""
+"Cudificazione : %s%s%.2f %% (%.2f fps, mez. %.2f fps, tras. %02dh%02dm%02ds)"
+
+#: src/callbacks.c:4189 src/callbacks.c:4229
+#, c-format
+msgid "Encoding: %s%s%.2f %% (ETA %02dh%02dm%02ds)"
+msgstr "Cudificazione : %s%s%.2f %% (tras. %02dh%02dm%02ds)"
+
+#: src/callbacks.c:4199 src/callbacks.c:4238
+#, c-format
+msgid "Encoding: %s%s%.2f %%"
+msgstr "Cudificazione : %s%s%.2f %%"
+
+#: src/callbacks.c:4225
+#, c-format
+msgid "Searching for start time, "
+msgstr "Ricerca di l’ora di principiu, "
+
+#: src/callbacks.c:4300
+#, c-format
+msgid "Scanning title %d of %d..."
+msgstr "Esplurazione di u titulu %d nant’à %d…"
+
+#: src/callbacks.c:4304
+#, c-format
+msgid "Scanning title %d of %d preview %d..."
+msgstr "Esplurazione di u titulu %d nant’à %d fighjulata %d…"
+
+#: src/callbacks.c:4388
+msgid "Paused"
+msgstr "In pausa"
+
+#: src/callbacks.c:4419
+msgid "Encode Done!"
+msgstr "Cudificazione compia !"
+
+#: src/callbacks.c:4423
+msgid "Encode Canceled."
+msgstr "Cudificazione abbandunata."
+
+#: src/callbacks.c:4428
+msgid "Encode Failed."
+msgstr "Cudificazione fiascata."
+
+#: src/callbacks.c:4470
+msgid "Muxing: This may take a while..."
+msgstr "Mischiu multiple : Què pò piglià qualchì tempu…"
+
+#: src/callbacks.c:5418
+#, c-format
+msgid "HandBrake %s/%s is now available (you have %s/%d)."
+msgstr "HandBrake %s/%s hè dispunibule avà (avete %s/%d)."
+
+#: src/callbacks.c:5598
+msgid "Encode Complete"
+msgstr "Cudificazione compia"
+
+#: src/callbacks.c:5600
+msgid "Put down that cocktail, Your HandBrake queue is done!"
+msgstr "Punite stu bichjeru ; A vostra fila d’attesa HandBrake hè compia !"
+
+#: src/callbacks.c:5611 src/callbacks.c:5619 src/callbacks.c:5628
+msgid "Your encode is complete."
+msgstr "A vostra cudificazione hè compia."
+
+#: src/callbacks.c:5612
+msgid "Quitting Handbrake"
+msgstr "Esciuta d’Handbrake"
+
+#: src/callbacks.c:5620
+msgid "Putting computer to sleep"
+msgstr "Messa in veghja di l’urdinatore"
+
+#: src/callbacks.c:5629
+msgid "Shutting down the computer"
+msgstr "Piantata di l’urdinatore"
+
+#: src/hb-backend.c:61 src/hb-backend.c:86
+msgid "First Track Matching Selected Languages"
+msgstr "Prima traccia chì currisponde à e lingue selezziunate"
+
+#: src/hb-backend.c:62 src/hb-backend.c:87
+msgid "All Tracks Matching Selected Languages"
+msgstr "Tutte e traccie chì currispondenu à e lingue selezziunate"
+
+#: src/hb-backend.c:73
+msgid "Foreign Audio Subtitle Track"
+msgstr "Traccia di sottutitulu audio straniera"
+
+#: src/hb-backend.c:74
+msgid "First Selected Track"
+msgstr "Prima traccia selezziunata"
+
+#: src/hb-backend.c:75
+msgid "Foreign Audio, then First Selected Track"
+msgstr "Traccia audio straniera eppò a prima traccia selezziunata"
+
+#: src/hb-backend.c:97 src/queuehandler.c:230
+msgid "Chapters:"
+msgstr "Capituli :"
+
+#: src/hb-backend.c:98
+msgid "Seconds:"
+msgstr "Seconde :"
+
+#: src/hb-backend.c:99 src/queuehandler.c:251
+msgid "Frames:"
+msgstr "Fiure :"
+
+#: src/hb-backend.c:109
+msgid "Do Nothing"
+msgstr "Ùn fà nunda"
+
+#: src/hb-backend.c:110
+msgid "Show Notification"
+msgstr "Affissà a nutificazione"
+
+#: src/hb-backend.c:111
+msgid "Quit Handbrake"
+msgstr "Esce d’Handbrake"
+
+#: src/hb-backend.c:112
+msgid "Put Computer To Sleep"
+msgstr "Mette l’urdinatore in veghja"
+
+#: src/hb-backend.c:113
+msgid "Shutdown Computer"
+msgstr "Spenghje l’urdinatore"
+
+#: src/hb-backend.c:125 src/hb-backend.c:240 src/hb-backend.c:271
+#: src/hb-backend.c:285 src/hb-backend.c:396
+msgid "Custom"
+msgstr "Persunalizatu"
+
+#: src/hb-backend.c:161
+msgid "Week"
+msgstr "Settimana"
+
+#: src/hb-backend.c:162
+msgid "Month"
+msgstr "Mese"
+
+#: src/hb-backend.c:163
+msgid "Year"
+msgstr "Annu"
+
+#: src/hb-backend.c:164
+msgid "Immortal"
+msgstr "Ab eternu"
+
+#: src/hb-backend.c:174
+msgid "Never"
+msgstr "Mai"
+
+#: src/hb-backend.c:175
+msgid "Daily"
+msgstr "Ghjurnalieru"
+
+#: src/hb-backend.c:176
+msgid "Weekly"
+msgstr "Settimanale"
+
+#: src/hb-backend.c:177
+msgid "Monthly"
+msgstr "Misincu"
+
+#: src/hb-backend.c:201 src/hb-backend.c:4896
+msgid "Decomb"
+msgstr "Dipettinera"
+
+#: src/hb-backend.c:202
+msgid "Yadif"
+msgstr "Yadif"
+
+#: src/hb-backend.c:203
+msgid "Bwdif"
+msgstr "Bwdif"
+
+#: src/hb-backend.c:214
+msgid "NLMeans"
+msgstr "NLMeans"
+
+#: src/hb-backend.c:215
+msgid "HQDN3D"
+msgstr "HQDN3D"
+
+#: src/hb-backend.c:226
+msgid "Unsharp"
+msgstr "Unsharp"
+
+#: src/hb-backend.c:227
+msgid "Lapsharp"
+msgstr "Lapsharp"
+
+#: src/hb-backend.c:238
+msgid "Conservative"
+msgstr "Cunservatrice"
+
+#: src/hb-backend.c:251
+msgid "90°"
+msgstr "90°"
+
+#: src/hb-backend.c:252
+msgid "180°"
+msgstr "180°"
+
+#: src/hb-backend.c:253
+msgid "270°"
+msgstr "270°"
+
+#: src/hb-backend.c:263
+msgid "4320p 8K Ultra HD"
+msgstr "4320p 8K Ultra HD"
+
+#: src/hb-backend.c:264
+msgid "2160p 4K Ultra HD"
+msgstr "2160p 4K Ultra HD"
+
+#: src/hb-backend.c:265
+msgid "1440p 2.5K Quad HD"
+msgstr "1440p 2.5K Quad HD"
+
+#: src/hb-backend.c:266
+msgid "1080p Full HD"
+msgstr "1080p Full HD"
+
+#: src/hb-backend.c:267
+msgid "720p HD"
+msgstr "720p HD"
+
+#: src/hb-backend.c:268
+msgid "576p PAL"
+msgstr "576p PAL"
+
+#: src/hb-backend.c:269
+msgid "480p NTSC"
+msgstr "480p NTSC"
+
+#: src/hb-backend.c:282
+msgid "Height (Letterbox)"
+msgstr "Altezza (Letterbox)"
+
+#: src/hb-backend.c:283
+msgid "Width (Pillarbox)"
+msgstr "Larghezza (Pillarbox)"
+
+#: src/hb-backend.c:284
+msgid "Width &amp; Height"
+msgstr "Larghezza è altezza"
+
+#: src/hb-backend.c:295
+msgid "Black"
+msgstr "Neru"
+
+#: src/hb-backend.c:296
+msgid "Dark Gray"
+msgstr "Grisgiu scuru"
+
+#: src/hb-backend.c:297
+msgid "Gray"
+msgstr "Grisgiu"
+
+#: src/hb-backend.c:298
+msgid "White"
+msgstr "Biancu"
+
+#: src/hb-backend.c:309
+msgid "Spatial"
+msgstr "Spaciale"
+
+#: src/hb-backend.c:310
+msgid "Temporal"
+msgstr "Tempurale"
+
+#: src/hb-backend.c:322
+msgid "Fast"
+msgstr "Rapidu"
+
+#: src/hb-backend.c:323
+msgid "Optimal"
+msgstr "Ottimale"
+
+#: src/hb-backend.c:334
+msgid "Strict"
+msgstr "Severu"
+
+#: src/hb-backend.c:335
+msgid "Normal"
+msgstr "Nurmale"
+
+#: src/hb-backend.c:346
+msgid "Simple"
+msgstr "Simplice"
+
+#: src/hb-backend.c:347
+msgid "Smart"
+msgstr "Astutu"
+
+#: src/hb-backend.c:357
+msgid "Diamond"
+msgstr "Lusanga"
+
+#: src/hb-backend.c:358
+msgid "Hexagon"
+msgstr "Esagunu"
+
+#: src/hb-backend.c:359
+msgid "Uneven Multi-Hexagon"
+msgstr "Esaguni mutiple disuguali"
+
+#: src/hb-backend.c:360
+msgid "Exhaustive"
+msgstr "Cumpletu"
+
+#: src/hb-backend.c:361
+msgid "Hadamard Exhaustive"
+msgstr "Hadamard cumpletu"
+
+#: src/hb-backend.c:371
+msgid "0: SAD, no subpel"
+msgstr "0: SAD, nisunu subpel"
+
+#: src/hb-backend.c:372
+msgid "1: SAD, qpel"
+msgstr "1: SAD, qpel"
+
+#: src/hb-backend.c:373
+msgid "2: SATD, qpel"
+msgstr "2: SATD, qpel"
+
+#: src/hb-backend.c:374
+msgid "3: SATD: multi-qpel"
+msgstr "3: SATD: multi-qpel"
+
+#: src/hb-backend.c:375
+msgid "4: SATD, qpel on all"
+msgstr "4: SATD, qpel per tutti"
+
+#: src/hb-backend.c:376
+msgid "5: SATD, multi-qpel on all"
+msgstr "5: SATD, multi-qpel per tutti"
+
+#: src/hb-backend.c:377
+msgid "6: RD in I/P-frames"
+msgstr "6: RD in e sequenze I/P"
+
+#: src/hb-backend.c:378
+msgid "7: RD in all frames"
+msgstr "7: RD in tutte e sequenze"
+
+#: src/hb-backend.c:379
+msgid "8: RD refine in I/P-frames"
+msgstr "8: RD refine in e sequenze I/P"
+
+#: src/hb-backend.c:380
+msgid "9: RD refine in all frames"
+msgstr "9: RD refine in tutte e sequenze"
+
+#: src/hb-backend.c:381
+msgid "10: QPRD in all frames"
+msgstr "10: QPRD in tutte e sequenze"
+
+#: src/hb-backend.c:382
+msgid "11: No early terminations in analysis"
+msgstr "11: Nisuna fine primaticcia in l’analisa"
+
+#: src/hb-backend.c:392
+msgid "Most"
+msgstr "A maiò parte"
+
+#: src/hb-backend.c:394
+msgid "Some"
+msgstr "Certi"
+
+#. Add filters
+#: src/hb-backend.c:395 src/main.c:1147 src/presets.c:2038
+#: src/queuehandler.c:1652
+msgid "All"
+msgstr "Tuttu"
+
+#: src/hb-backend.c:407
+msgid "Encode only"
+msgstr "Cudificazione solu"
+
+#: src/hb-backend.c:408
+msgid "Always"
+msgstr "Sempre"
+
+#: src/hb-backend.c:1524 src/hb-backend.c:1584 src/hb-backend.c:1663
+msgid "Same as source"
+msgstr "Listessa chì a fonte"
+
+#: src/hb-backend.c:1677
+msgid "(NTSC Film)"
+msgstr "(Filmu NTSC)"
+
+#: src/hb-backend.c:1681
+msgid "(PAL Film/Video)"
+msgstr "(Filmu/Video PAL)"
+
+#: src/hb-backend.c:1685
+msgid "(NTSC Video)"
+msgstr "(Video NTSC)"
+
+#: src/hb-backend.c:2252
+#, c-format
+msgid "%s - (%05d.MPLS)"
+msgstr "%s - (%05d.MPLS)"
+
+#: src/hb-backend.c:2402
+#, c-format
+msgid "%3d - %02dh%02dm%02ds - %s"
+msgstr "%3d - %02dh%02dm%02ds - %s"
+
+#: src/hb-backend.c:2421
+#, c-format
+msgid "%3d - %02dh%02dm%02ds - (%05d.MPLS)"
+msgstr "%3d - %02dh%02dm%02ds - (%05d.MPLS)"
+
+#: src/hb-backend.c:2427
+#, c-format
+msgid "%3d - (%05d.MPLS)"
+msgstr "%3d - (%05d.MPLS)"
+
+#: src/hb-backend.c:2433
+#, c-format
+msgid "%3d - %02dh%02dm%02ds"
+msgstr "%3d - %02dh%02dm%02ds"
+
+#: src/hb-backend.c:2466
+msgid "No Titles"
+msgstr "Nisunu titulu"
+
+#. No audio. set some default
+#: src/hb-backend.c:2746
+msgid "No Audio"
+msgstr "Nisunu audio"
+
+#: src/hb-backend.c:4305
+#, c-format
+msgid ""
+"Invalid Detelecine Settings:\n"
+"\n"
+"Preset:\t%s\n"
+"Custom:\t%s\n"
+msgstr ""
+"Preferenze inaccettevule di detelesinema :\n"
+"\n"
+"Prerigatura :\t%s\n"
+"Persunaliz. :\t%s\n"
+
+#: src/hb-backend.c:4312
+#, c-format
+msgid ""
+"Invalid Detelecine Settings:\n"
+"\n"
+"Preset:\t%s\n"
+msgstr ""
+"Preferenze inaccettevule di detelesinema :\n"
+"\n"
+"Prerigatura :\t%s\n"
+
+#: src/hb-backend.c:4338
+#, c-format
+msgid ""
+"Invalid Comb Detect Settings:\n"
+"\n"
+"Preset:\t%s\n"
+"Custom:\t%s\n"
+msgstr ""
+"Preferenze inaccettevule d’avventata di pettinera :\n"
+"\n"
+"Prerigatura :\t%s\n"
+"Persunaliz. :\t%s\n"
+
+#: src/hb-backend.c:4345
+#, c-format
+msgid ""
+"Invalid Comb Detect Settings:\n"
+"\n"
+"Preset:\t%s\n"
+msgstr ""
+"Preferenze inaccettevule d’avventata di pettinera :\n"
+"\n"
+"Prerigatura :\t%s\n"
+
+#: src/hb-backend.c:4374
+#, c-format
+msgid ""
+"Invalid Deinterlace Settings:\n"
+"\n"
+"Filter:\t%s\n"
+"Preset:\t%s\n"
+"Custom:\t%s\n"
+msgstr ""
+"Preferenze inaccettevule di disintricciamentu :\n"
+"\n"
+"Filtru :\t%s\n"
+"Prerigatura :\t%s\n"
+"Persunaliz. :\t%s\n"
+
+#: src/hb-backend.c:4383
+#, c-format
+msgid ""
+"Invalid Deinterlace Settings:\n"
+"\n"
+"Filter:\t%s\n"
+"Preset:\t%s\n"
+msgstr ""
+"Preferenze inaccettevule di disintricciamentu :\n"
+"\n"
+"Filtru :\t%s\n"
+"Prerigatura :\t%s\n"
+
+#: src/hb-backend.c:4412
+#, c-format
+msgid ""
+"Invalid Denoise Settings:\n"
+"\n"
+"Filter:\t%s\n"
+"Preset:\t%s\n"
+"Tune:\t%s\n"
+"Custom:\t%s\n"
+msgstr ""
+"Preferenze inaccettevule di riduzzione di trostu :\n"
+"\n"
+"Filtru :\t%s\n"
+"Prerigatura :\t%s\n"
+"Rigatura :\t%s\n"
+"Persunaliz. :\t%s\n"
+
+#: src/hb-backend.c:4440
+#, c-format
+msgid ""
+"Invalid Sharpen Settings:\n"
+"\n"
+"Filter:\t%s\n"
+"Preset:\t%s\n"
+"Tune:\t%s\n"
+"Custom:\t%s\n"
+msgstr ""
+"Preferenze inaccettevule d’arrutata :\n"
+"\n"
+"Filtru :\t%s\n"
+"Prerigatura :\t%s\n"
+"Rigatura :\t%s\n"
+"Persunaliz. :\t%s\n"
+
+#: src/hb-backend.c:4474
+#, c-format
+msgid ""
+"Theora is not supported in the MP4 container.\n"
+"\n"
+"You should choose a different video codec or container.\n"
+"If you continue, FFMPEG will be chosen for you."
+msgstr ""
+"Theora ùn hè micca accettatu in i cuntenidori MP4.\n"
+"\n"
+"Ci vuleria à sceglie un altru cudecu video o un cuntenidore sfarente.\n"
+"S’è vo cuntinuate, FFMPEG serà sceltu per voi."
+
+#: src/hb-backend.c:4484
+#, c-format
+msgid ""
+"Only VP8, VP9 and AV1 is supported in the WebM container.\n"
+"\n"
+"You should choose a different video codec or container.\n"
+"If you continue, one will be chosen for you."
+msgstr ""
+"Solu VP8, VP9 è AV1 sò accettati in u cuntenidore WebM.\n"
+"\n"
+"Ci vuleria à sceglie un altru cudecu video o un cuntenidore sfarente.\n"
+"S’è vo cuntinuate, unu serà sceltu per voi."
+
+#: src/hb-backend.c:4493 src/hb-backend.c:4550 src/hb-backend.c:4570
+#: src/hb-backend.c:4590 src/hb-backend.c:4651 src/hb-backend.c:4706
+msgid "Continue"
+msgstr "Cuntinuà"
+
+#. No valid title, stop right there
+#: src/hb-backend.c:4519 src/hb-backend.c:4615
+msgid "No title found.\n"
+msgstr "Nisunu titulu trovu.\n"
+
+#: src/hb-backend.c:4546
+#, c-format
+msgid ""
+"Only one subtitle may be burned into the video.\n"
+"\n"
+"You should change your subtitle selections.\n"
+"If you continue, some subtitles will be lost."
+msgstr ""
+"Solu un sottutitulu pò esse intarsiatu in a video.\n"
+"\n"
+"Ci vuleria à cambià e vostre selezzione di sottutituli.\n"
+"S’è vo cuntinuate, certi sottutituli seranu persi."
+
+#: src/hb-backend.c:4566
+#, c-format
+msgid ""
+"WebM in HandBrake only supports burned subtitles.\n"
+"\n"
+"You should change your subtitle selections.\n"
+"If you continue, some subtitles will be lost."
+msgstr ""
+"WebM in HandBrake accetta solu i sottutituli intarsiati.\n"
+"\n"
+"Ci vuleria à cambià e vostre selezzione di sottutituli.\n"
+"S’è vo cuntinuate, certi sottutituli seranu persi."
+
+#: src/hb-backend.c:4586
+#, c-format
+msgid ""
+"SRT file does not exist or not a regular file.\n"
+"\n"
+"You should choose a valid file.\n"
+"If you continue, this subtitle will be ignored."
+msgstr ""
+"U schedariu SRT ùn esiste micca o ùn hè micca nurmale.\n"
+"\n"
+"Ci vuleria à sceglie un schedariu accettevule.\n"
+"S’è vo cuntinuate, stu sottutitulu serà ignuratu."
+
+#: src/hb-backend.c:4647
+#, c-format
+msgid ""
+"The source does not support Pass-Thru.\n"
+"\n"
+"You should choose a different audio codec.\n"
+"If you continue, one will be chosen for you."
+msgstr ""
+"A fonte ùn acceta micca a ricopia.\n"
+"\n"
+"Ci vuleria à sceglie un cudecu audio sfarente.\n"
+"S’è vo cuntinuate, unu serà sceltu per voi."
+
+#: src/hb-backend.c:4702
+#, c-format
+msgid ""
+"%s is not supported in the %s container.\n"
+"\n"
+"You should choose a different audio codec.\n"
+"If you continue, one will be chosen for you."
+msgstr ""
+"%s ùn hè micca accettatu in u cuntenidore %s.\n"
+"\n"
+"Ci vuleria à sceglie un cudecu audio sfarente.\n"
+"S’è vo cuntinuate, unu serà sceltu per voi."
+
+#: src/hb-backend.c:4888
+msgid "Comb Detect"
+msgstr "Avventata di pettinera"
+
+#: src/hb-backend.c:4890
+msgid "Detelecine"
+msgstr "Detelesinema"
+
+#: src/hb-backend.c:4892
+msgid "Deinterlace (Yadif)"
+msgstr "Disintricciamentu (Yadif)"
+
+#: src/hb-backend.c:4894
+msgid "Deinterlace (Bwdif)"
+msgstr "Disintricciamentu (Bwdif)"
+
+#: src/hb-backend.c:4898
+msgid "Deblock"
+msgstr "Sblucchime"
+
+#: src/hb-backend.c:4900
+msgid "Denoise (NLMeans)"
+msgstr "Riduzzione di trostu (NLMeans)"
+
+#: src/hb-backend.c:4902
+msgid "Denoise (HQDN3D)"
+msgstr "Riduzzione di trostu (HQDN3D)"
+
+#: src/hb-backend.c:4904
+msgid "Chroma Smooth"
+msgstr "Allisciata cromatica"
+
+#: src/hb-backend.c:4906
+msgid "Sharpen (Unsharp)"
+msgstr "Arrutata (Unsharp)"
+
+#: src/hb-backend.c:4908
+msgid "Rotate"
+msgstr "Rutazione"
+
+#: src/hb-backend.c:4910
+msgid "Sharpen (lapsharp)"
+msgstr "Arrutata (lapsharp)"
+
+#: src/hb-backend.c:4914
+msgid "Colorspace"
+msgstr "Spaziu culorimetricu"
+
+#: src/main.c:97
+#, c-format
+msgid ""
+"<b><big>Unable to create %s.</big></b>\n"
+"\n"
+"Internal error. Could not parse UI description.\n"
+"%s"
+msgstr ""
+"<b><big>Impussibule di creà %s.</big></b>\n"
+"\n"
+"Sbagliu internu. Ùn si pò micca determinà a discrizzione di l’interfaccia di l’utilizatore.\n"
+"%s"
+
+#: src/main.c:232 src/main.c:297
+msgid "Track Information"
+msgstr "Infurmazione di a traccia"
+
+#: src/main.c:246 src/main.c:251 src/main.c:311 src/main.c:315
+msgid " "
+msgstr " "
+
+#: src/main.c:358
+msgid "Preset Name"
+msgstr "Nome di a prerigatura"
+
+#: src/main.c:573
+msgid "The device or file to encode"
+msgstr "L’apparechju o u schedariu à cudificà"
+
+#: src/main.c:574
+msgid "The preset values to use for encoding"
+msgstr "I valori di prerigatura à impiegà per a cudificazione"
+
+#: src/main.c:575
+msgid "Spam a lot"
+msgstr "Troppu di « spam »"
+
+#: src/main.c:576
+msgid "The path to override user config dir"
+msgstr "U chjassu per supranà u cartulare di cunfigurazione di l’utilizatore"
+
+#: src/main.c:578
+msgid "Open a console for debug output"
+msgstr "Apre una cunsola per i risultati di spannatura"
+
+#: src/presets.c:1250
+msgid "ghb_presets_menu_init: Failed to find presets folder."
+msgstr ""
+"ghb_presets_menu_init : Impussibule di truvà u cartulare di e prerigature."
+
+#: src/presets.c:1406
+msgid "Failed to find parent folder when adding child."
+msgstr ""
+"Impussibule di truvà u cartulare « genitore » quandu s’aghjunghje un "
+"« zitellu »."
+
+#: src/presets.c:1890
+#, c-format
+msgid ""
+"Presets found are newer than what is supported by this version of HandBrake!\n"
+"\n"
+"Would you like to continue?"
+msgstr ""
+"E prerigature truve sò più recente chè quelle chì sò accettate da sta versione di HandBrake !\n"
+"\n"
+"Vulete cuntinuà ?"
+
+#: src/presets.c:1893
+msgid "Get me out of here!"
+msgstr "Lasciatemi scappà !"
+
+#: src/presets.c:1893
+msgid "Load backup presets"
+msgstr "Caricà e prerigature di salvaguardia"
+
+#: src/presets.c:2032
+msgid "Import Preset"
+msgstr "Impurtà a prerigatura"
+
+#: src/presets.c:2039
+msgid "Presets (*.json)"
+msgstr "Prerigature (*.json)"
+
+#: src/presets.c:2041
+msgid "Legacy Presets (*.plist)"
+msgstr "Prerigature anziane (*.plist)"
+
+#: src/presets.c:2135
+msgid "Export Preset"
+msgstr "Espurtà a prerigatura"
+
+#: src/presets.c:2457
+#, c-format
+msgid ""
+"Confirm deletion of %s:\n"
+"\n"
+"%s"
+msgstr ""
+"Cunfirmà a squassatura di %s:\n"
+"\n"
+"%s"
+
+#: src/presets.c:2458
+msgid "folder"
+msgstr "cartulare"
+
+#: src/presets.c:2458
+msgid "preset"
+msgstr "prerigatura"
+
+#: src/presets.c:2464
+msgid "Delete"
+msgstr "Squassà"
+
+#: src/preview.c:531
+#, c-format
+msgid ""
+"Missing GStreamer plugin\n"
+"Audio or Video may not play as expected\n"
+"\n"
+"%s"
+msgstr ""
+"Modulu d’estensione GStreamer mancante\n"
+"Audio o video puderianu ùn esse micca letti cum’è previstu\n"
+"\n"
+"%s"
+
+#: src/preview.c:535
+msgid "OK"
+msgstr "Vai"
+
+#: src/queuehandler.c:196
+#, c-format
+msgid "%s (Modified)"
+msgstr "%s (mudificatu)"
+
+#: src/queuehandler.c:244
+msgid "Time:"
+msgstr "Tempu :"
+
+#: src/queuehandler.c:288
+msgid "Align A/V"
+msgstr "Aliniamentu A/V"
+
+#: src/queuehandler.c:298
+msgid "iPod 5G"
+msgstr "iPod 5G"
+
+#: src/queuehandler.c:330
+#, c-format
+msgid ""
+"%d:%d:%d:%d Crop\n"
+"%dx%d storage, %dx%d display\n"
+"%d:%d Pixel Aspect Ratio\n"
+"%s Display Aspect Ratio"
+msgstr ""
+"%d:%d:%d:%d Runzicatura\n"
+"%dx%d Allucamentu, %dx%d Affissera\n"
+"%d:%d Prupurzioni di pixel\n"
+"%s Prupurzioni d’affissera"
+
+#: src/queuehandler.c:361
+#, c-format
+msgid "%s, Bitrate %dkbps"
+msgstr "%s, Flussu binariu %dkbps"
+
+#: src/queuehandler.c:366
+#, c-format
+msgid "%s, Bitrate %dkbps (2 Pass)"
+msgstr "%s, Flussu binariu %dkbps (2 passi)"
+
+#: src/queuehandler.c:373
+#, c-format
+msgid "%s, Constant Quality %.4g(%s)"
+msgstr "%s, Qualità custente %.4g(%s)"
+
+#: src/queuehandler.c:406
+#, c-format
+msgid "%sPreset %s"
+msgstr "%sPrerigatura %s"
+
+#: src/queuehandler.c:411
+#, c-format
+msgid "%sTune %s"
+msgstr "%sRigatura %s"
+
+#: src/queuehandler.c:416
+#, c-format
+msgid "%sProfile %s"
+msgstr "%sPrufilu %s"
+
+#: src/queuehandler.c:421
+#, c-format
+msgid "%sLevel %s"
+msgstr "%sLivellu %s"
+
+#: src/queuehandler.c:438
+#, c-format
+msgid ""
+"\n"
+"Constant Framerate %s fps"
+msgstr ""
+"\n"
+"Frequenza di fiure custente %s fps"
+
+#: src/queuehandler.c:442
+#, c-format
+msgid ""
+"\n"
+"Peak Framerate %s fps (may be lower)"
+msgstr ""
+"\n"
+"Frequenza di fiure di cresta %s fps (forse più bassa)"
+
+#: src/queuehandler.c:447
+#, c-format
+msgid ""
+"\n"
+"Variable Framerate %s fps"
+msgstr ""
+"\n"
+"Frequenza di fiure variabile %s fps"
+
+#: src/queuehandler.c:746 src/queuehandler.c:771
+msgid "Pending"
+msgstr "In attesa"
+
+#: src/queuehandler.c:758 src/queuehandler.c:1257
+msgid "Completed"
+msgstr "Compiu"
+
+#: src/queuehandler.c:762 src/queuehandler.c:1261
+msgid "Canceled"
+msgstr "Abbandunatu"
+
+#: src/queuehandler.c:766 src/queuehandler.c:1265
+msgid "Failed"
+msgstr "Fiascu"
+
+#: src/queuehandler.c:807 src/queuehandler.c:835 src/queuehandler.c:1305
+#: src/queuehandler.c:1333
+#, c-format
+msgid "%d Day %02d:%02d:%02d"
+msgstr "%d ghjornu %02d:%02d:%02d"
+
+#: src/queuehandler.c:810 src/queuehandler.c:838 src/queuehandler.c:1308
+#: src/queuehandler.c:1336
+#, c-format
+msgid "%d Days %02d:%02d:%02d"
+msgstr "%d ghjorni %02d:%02d:%02d"
+
+#: src/queuehandler.c:851 src/queuehandler.c:1349
+msgid "B"
+msgstr "o"
+
+#: src/queuehandler.c:855 src/queuehandler.c:1353
+msgid "KB"
+msgstr "Ko"
+
+#: src/queuehandler.c:860 src/queuehandler.c:1358
+msgid "MB"
+msgstr "Mo"
+
+#: src/queuehandler.c:865 src/queuehandler.c:1363
+msgid "GB"
+msgstr "Go"
+
+#: src/queuehandler.c:876 src/queuehandler.c:1374
+msgid "Not Available"
+msgstr "Indispunibule"
+
+#: src/queuehandler.c:1209
+msgid "Foreign Audio Search"
+msgstr "Ricerca di traccia audio straniera"
+
+#: src/queuehandler.c:1213
+msgid "Encode"
+msgstr "Cudificà"
+
+#: src/queuehandler.c:1217
+msgid "Encode First Pass (Analysis)"
+msgstr "Primu passu di cudificazione (analisa)"
+
+#: src/queuehandler.c:1221
+msgid "Encode Second Pass (Final)"
+msgstr "Secondu passu di cudificazione (finale)"
+
+#. Should never happen
+#: src/queuehandler.c:1226
+msgid "Error"
+msgstr "Sbagliu"
+
+#: src/queuehandler.c:1230
+#, c-format
+msgid ""
+"pass %d of %d\n"
+"%s"
+msgstr ""
+"passu %d nant’à %d\n"
+"%s"
+
+#: src/queuehandler.c:1242
+msgid "Scanning Title"
+msgstr "Esplurazione di titulu"
+
+#: src/queuehandler.c:1246
+msgid "Encoding Paused"
+msgstr "Cudificazione interrotta"
+
+#: src/queuehandler.c:1250
+msgid "Encoding In Progress"
+msgstr "Cudificazione in corsu"
+
+#. Should never happen
+#: src/queuehandler.c:1270
+msgid "Unknown"
+msgstr "Scunnisciutu"
+
+#: src/queuehandler.c:1810
+#, c-format
+msgid ""
+"%sThe destination filesystem is almost full: %<PRId64> MB free.\n"
+"Destination: %s\n"
+"Encode may be incomplete if you proceed.\n"
+msgstr ""
+"%sU sistema di schedariu di destinazione hè guasi pienu : %<PRId64> Mo liberu.\n"
+"Destinazione : %s\n"
+"A cudificazione pò esse incumpleta s’è vo fate què.\n"
+
+#: src/queuehandler.c:1815
+msgid "Resume, I've fixed the problem"
+msgstr "Ripiglià, aghju currettu u penseru"
+
+#: src/queuehandler.c:1816
+msgid "Resume, Don't tell me again"
+msgstr "Ripiglià, ùn ditemilu più"
+
+#: src/queuehandler.c:1875
+#, c-format
+msgid ""
+"Destination: %s\n"
+"\n"
+"Another queued job has specified the same destination.\n"
+"Do you want to overwrite?"
+msgstr ""
+"Destinazione  %s\n"
+"\n"
+"Un altru travagliu in fila d’attesa hà impiegatu a listessa destinazione.\n"
+"Vulete rimpiazzallu ?"
+
+#: src/queuehandler.c:1880 src/queuehandler.c:1926
+msgid "Overwrite"
+msgstr "Rimpiazzà"
+
+#: src/queuehandler.c:1893
+#, c-format
+msgid ""
+"Destination: %s\n"
+"\n"
+"This is not a valid directory."
+msgstr ""
+"Destinazione : %s\n"
+"\n"
+"Què ùn hè micca un cartulare accettevule."
+
+#: src/queuehandler.c:1907
+#, c-format
+msgid ""
+"Destination: %s\n"
+"\n"
+"Can not read or write the directory."
+msgstr ""
+"Destinazione : %s\n"
+"\n"
+"Ùn si pò micca leghje o scrive in stu cartulare."
+
+#: src/queuehandler.c:1921
+#, c-format
+msgid ""
+"Destination: %s\n"
+"\n"
+"File already exists.\n"
+"Do you want to overwrite?"
+msgstr ""
+"Destinazione  %s\n"
+"\n"
+"U schedariu esiste dighjà.\n"
+"Vulete rimpiazzallu ?"
+
+#: src/queuehandler.c:2236
+msgid "Select this title for adding to the queue.\n"
+msgstr "Selezziunà stu titulu per aghjunghjelu à a fila d’attesa.\n"
+
+#. Title label
+#: src/queuehandler.c:2244
+msgid "No Title"
+msgstr "Nisunu titulu"
+
+#: src/queuehandler.c:2254
+msgid ""
+"There is another title with the same destination file name.\n"
+"This title will not be added to the queue unless you change\n"
+"the output file name.\n"
+msgstr ""
+"Ci hè un altru titulu cù u listessu nome di schedariu di destinazione.\n"
+"Stu titulu ùn serà micca aghjuntu à a fila d’attesa for chè vo\n"
+"cambiate u nome di schedariu d’esciuta.\n"
+
+#: src/queuehandler.c:2432 src/queuehandler.c:2445
+msgid "Stop"
+msgstr "Piantà"
+
+#: src/queuehandler.c:2433 src/queuehandler.c:2446
+msgid "Stop Encoding"
+msgstr "Piantà a cudificazione"
+
+#: src/queuehandler.c:2458
+msgid "S_top Encoding"
+msgstr "_Piantà a cudificazione"
+
+#: src/queuehandler.c:2474 src/queuehandler.c:2487
+msgid "Resume"
+msgstr "Ripiglià"
+
+#: src/queuehandler.c:2475 src/queuehandler.c:2488
+msgid "Resume Encoding"
+msgstr "Ripiglià a cudificazione"
+
+#: src/queuehandler.c:2499
+msgid "_Resume Encoding"
+msgstr "_Ripiglià a cudificazione"
+
+#: src/queuehandler.c:3216
+msgid ""
+"You are currently encoding.  What would you like to do?\n"
+"\n"
+msgstr ""
+"Una cudificazione hè in corsu.  Chì vulete fa ?\n"
+"\n"
+
+#: src/subtitlehandler.c:109
+#, c-format
+msgid "Offset: %dms"
+msgstr "Staccamentu : %d ms"
+
+#: src/subtitlehandler.c:114
+msgid "Burned Into Video"
+msgstr "Intarsiatu in a video"
+
+#: src/subtitlehandler.c:115
+msgid "Passthrough"
+msgstr "Ricopia"
+
+#: src/subtitlehandler.c:122
+msgid "Default"
+msgstr "Predefinitu"
+
+#: src/subtitlehandler.c:1190
+msgid "Add Subtitles"
+msgstr "Aghjunghje i sottutituli"
+
+#: src/subtitlehandler.c:1381
+#, c-format
+msgid "Preferred Language: %s"
+msgstr "Lingua preferita : %s"
+
+#: src/subtitlehandler.c:1395
+#, c-format
+msgid "Add %s subtitle track if default audio is not %s"
+msgstr ""
+"Aghjunghje a traccia di sottutitulu %s s’è l’audio predefinitu ùn hè micca "
+"%s"
+
+#: src/subtitlehandler.c:1400
+#, c-format
+msgid "Add subtitle track if default audio is not your preferred language"
+msgstr ""
+"Aghjunghje a traccia di sottutitulu s’è l’audio predefinitu ùn hè micca a "
+"vostra lingua preferita"
+
+#: src/videohandler.c:202
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Expanded Options:\n"
+"\"%s\""
+msgstr ""
+"%s\n"
+"\n"
+"Ozzioni spiegate :\n"
+"« %s »"
+
+#: src/videohandler.c:205
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Expanded Options:\n"
+"\"\""
+msgstr ""
+"%s\n"
+"\n"
+"Ozzioni spiegate :\n"
+"\"\""
+
+#: src/videohandler.c:350
+#, c-format
+msgid "%s: %.4g (Warning: lossless)"
+msgstr "%s: %.4g (Avertimentu : senza perdita)"

@@ -1,0 +1,17 @@
+diff --git a/lib/fribidi-common.h b/lib/fribidi-common.h
+index d874d8b..9388a6f 100644
+--- a/lib/fribidi-common.h
++++ b/lib/fribidi-common.h
+@@ -46,9 +46,9 @@
+ # ifndef FRIBIDI_ENTRY
+ #  ifdef _WIN32
+ #   ifdef FRIBIDI_BUILD
+-#     define FRIBIDI_ENTRY __declspec(dllexport)
++#     define FRIBIDI_ENTRY
+ #   else
+-#     define FRIBIDI_ENTRY __declspec(dllimport)
++#     define FRIBIDI_ENTRY
+ #   endif
+ #  elif (defined(__SUNPRO_C)  || defined(__SUNPRO_CC))
+ #   define FRIBIDI_ENTRY __global
+ 
